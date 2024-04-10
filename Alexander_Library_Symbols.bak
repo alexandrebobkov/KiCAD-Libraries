@@ -1523,7 +1523,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at -2.54 49.53 0)
 				(length 2.54)
 				(name "EN"
@@ -1559,7 +1559,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -2.54 44.45 0)
 				(length 2.54)
 				(name "VP"
@@ -1865,7 +1865,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 7.62 60.96 270)
 				(length 2.54)
 				(name "5V"
