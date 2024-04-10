@@ -1,4 +1,4 @@
-(footprint "Conn_I2C"
+(footprint "Conn_SPI"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_I2C"
+	(property "Value" "Conn_SPI"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8e8a42fe-9e40-4832-a4aa-7e5928aac47e")
+		(uuid "299a69dc-f412-4c4c-84d7-54062f8e3984")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1497f289-eb66-4470-86c0-feeda8b3c785")
+		(uuid "21fb5a4e-cd2c-41fa-b782-c5861b8b59d9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30f318fc-d15e-4738-b6f7-0b91b39702d5")
+		(uuid "dd4ce8cd-3a60-438a-9dcb-661ba7b41dae")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,8 +64,20 @@
 		)
 	)
 	(attr through_hole)
-	(fp_text user "SCL"
+	(fp_text user "CSB"
 		(at 2.54 15.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b77487f-b9d5-4a1e-a064-6b518963ff11")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "SCL"
+		(at 2.54 10.16 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1a795a35-b22a-43f3-a486-b1063021684d")
@@ -101,7 +113,7 @@
 		)
 	)
 	(fp_text user "Vcc"
-		(at 2.54 10.16 0)
+		(at 2.54 5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f6169012-cb39-4d0e-b154-87889a874df6")
@@ -112,8 +124,20 @@
 			)
 		)
 	)
-	(fp_text user "I2C"
-		(at 0 17.78 0)
+	(fp_text user "SDO"
+		(at 2.54 17.78 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb1039a2-8ade-4e1c-9679-06faf6a7688e")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "SPI"
+		(at 0 20.32 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "fc487470-f46c-45ca-a9f1-5b449c30c807")
@@ -138,7 +162,15 @@
 			)
 		)
 	)
-	(pad "GND" thru_hole rect
+	(pad "CSB" thru_hole circle
+		(at 0 15.24)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4aa5c079-de0a-41f1-9c9e-d4e075240560")
+	)
+	(pad "GND" thru_hole circle
 		(at 0 7.62)
 		(size 1.524 1.524)
 		(drill 0.762)
@@ -147,7 +179,7 @@
 		(uuid "5c41aac6-f663-494d-a0f4-636d0c39bea1")
 	)
 	(pad "SCL" thru_hole circle
-		(at 0 15.24)
+		(at 0 10.16)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -162,8 +194,16 @@
 		(remove_unused_layers no)
 		(uuid "c26bce4f-7c1b-4a87-92f9-aba6c298f7db")
 	)
-	(pad "Vcc" thru_hole circle
-		(at 0 10.16)
+	(pad "SDO" thru_hole circle
+		(at 0 17.78)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a89c646-b440-4113-9626-88705cdb1597")
+	)
+	(pad "Vcc" thru_hole rect
+		(at 0 5.08)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
