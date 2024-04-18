@@ -208,6 +208,26 @@
 		(uuid "db4e4b5a-c814-480d-a73e-84f1badc710e")
 	)
 	(fp_line
+		(start 44.4754 -29.1846)
+		(end 44.4754 -29.1846)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7d59c60f-036e-42f2-a86c-4458cc7ce84c")
+	)
+	(fp_line
+		(start 45.7962 -29.27)
+		(end 47.1262 -29.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab753aa5-fa1b-4224-a99c-fbedd86d765a")
+	)
+	(fp_line
 		(start 46.26 -30.48)
 		(end -0.54 -30.48)
 		(stroke
@@ -216,6 +236,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "db467b0d-f477-4919-9cc5-447b705c1afc")
+	)
+	(fp_line
+		(start 47.1262 -29.27)
+		(end 47.1262 -27.94)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "121ab247-3a64-4ca3-8f8b-4b0ac8441e64")
 	)
 	(fp_line
 		(start 48.26 -19.78)
@@ -735,13 +765,13 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "337276e0-68f4-45e5-b37b-2f3d31e6dec7")
 	)
-	(pad "1" thru_hole oval
-		(at 45.72 -27.94)
+	(pad "1" thru_hole rect
+		(at 45.72 -27.94 270)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ded7dcbb-8e1c-4add-afa5-67cb32bf52c5")
+		(uuid "dfd16e45-1478-4be5-8b13-bbec2d6857b1")
 	)
 	(pad "2" smd rect
 		(at -25.627 -15.548 90)
