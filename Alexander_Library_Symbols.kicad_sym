@@ -4614,6 +4614,17 @@
 			)
 		)
 		(symbol "rp2040w-zero_0_1"
+			(rectangle
+				(start -10.16 44.45)
+				(end 10.16 10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy -10.16 44.45) (xy 10.16 44.45)
