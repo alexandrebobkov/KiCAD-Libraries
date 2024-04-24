@@ -4571,7 +4571,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 9.906 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4587,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:RP2040-Zero"
-			(at 0 0 0)
+			(at -0.254 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4604,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RP2040W-Zero"
+			(at -0.508 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RP2040 Zero"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4615,8 +4625,8 @@
 		)
 		(symbol "rp2040w-zero_0_1"
 			(rectangle
-				(start -10.16 44.45)
-				(end 10.16 10.16)
+				(start -10.16 49.53)
+				(end 10.16 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -4625,46 +4635,10 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -10.16 44.45) (xy 10.16 44.45)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -10.16 44.45) (xy -10.16 10.16) (xy 8.89 10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 44.45) (xy 10.16 10.16) (xy 7.62 10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "rp2040w-zero_1_1"
 			(pin power_in line
-				(at -12.7 41.91 0)
+				(at -1.27 52.07 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -4682,7 +4656,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 7.62 90)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "CS1"
 					(effects
@@ -4700,7 +4674,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 7.62 90)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "MISO0"
 					(effects
@@ -4718,7 +4692,7 @@
 				)
 			)
 			(pin input line
-				(at 0 7.62 90)
+				(at 12.7 43.18 180)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -4736,7 +4710,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 7.62 90)
+				(at 12.7 40.64 180)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -4754,7 +4728,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 7.62 90)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "RXD1"
 					(effects
@@ -4772,7 +4746,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 19.05 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "TXD1"
 					(effects
@@ -4790,7 +4764,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 21.59 180)
+				(at 12.7 38.1 180)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
@@ -4808,7 +4782,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 24.13 180)
+				(at 12.7 35.56 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -4826,7 +4800,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 26.67 180)
+				(at 12.7 22.86 180)
 				(length 2.54)
 				(name "SCL0"
 					(effects
@@ -4844,7 +4818,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 29.21 180)
+				(at 12.7 25.4 180)
 				(length 2.54)
 				(name "SDA0"
 					(effects
@@ -4862,7 +4836,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 39.37 0)
+				(at 0 1.27 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4880,7 +4854,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 31.75 180)
+				(at 12.7 33.02 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -4898,7 +4872,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 34.29 180)
+				(at 12.7 30.48 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -4916,7 +4890,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 36.83 180)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "RXD0"
 					(effects
@@ -4934,7 +4908,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 39.37 180)
+				(at 12.7 15.24 180)
 				(length 2.54)
 				(name "TXD0"
 					(effects
@@ -4952,7 +4926,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 36.83 0)
+				(at 1.27 52.07 270)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -4970,7 +4944,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 31.75 0)
+				(at -12.7 35.56 0)
 				(length 2.54)
 				(name "ADC3"
 					(effects
@@ -4988,7 +4962,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 29.21 0)
+				(at -12.7 38.1 0)
 				(length 2.54)
 				(name "ADC2"
 					(effects
@@ -5006,7 +4980,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 26.67 0)
+				(at -12.7 40.64 0)
 				(length 2.54)
 				(name "ADC1/SCL1"
 					(effects
@@ -5024,7 +4998,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 24.13 0)
+				(at -12.7 43.18 0)
 				(length 2.54)
 				(name "ADC0/SDA1"
 					(effects
@@ -5042,7 +5016,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 21.59 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "MOSI1"
 					(effects
@@ -5060,7 +5034,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 19.05 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "SCK1"
 					(effects
