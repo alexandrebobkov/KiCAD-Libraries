@@ -134,7 +134,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "SIGNAL"
+				(name "In"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,7 +152,7 @@
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
-				(name "GND"
+				(name "Ext"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -170,7 +170,7 @@
 			(pin passive line
 				(at 0 5.08 270)
 				(length 3.048)
-				(name "GND"
+				(name "Ext"
 					(effects
 						(font
 							(size 1.27 1.27)
