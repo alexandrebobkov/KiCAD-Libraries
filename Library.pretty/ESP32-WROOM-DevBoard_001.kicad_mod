@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "ESP32-WROOM-32D Development Board 38-pin")
+	(tags "ESP32 32D Dev Board")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -15,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "ESP32-WROOM-DevBoard_001"
+	(property "Value" "ESP32-WROOM-DevBoard"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -27,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "ESP32-WROOM-DevBoard_001"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +55,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "ESP32-WROOM-32D Development Board 38-pin"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -163,7 +165,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at -10.16 -48.26)
 		(size 1.524 1.524)
 		(drill 0.762)
