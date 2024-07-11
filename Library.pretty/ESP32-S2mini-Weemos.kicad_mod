@@ -1,8 +1,10 @@
-(footprint "ESP32-S2mini"
+(footprint "ESP32-S2mini-Weemos"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "ESP32-S2mini Weemos")
+	(tags "ESP32 S2")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -171,12 +173,15 @@
 		(remove_unused_layers no)
 		(uuid "76ae043d-d892-46f0-be5e-787cb9fc22a4")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole roundrect
 		(at 0 -20.32)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.25)
+		(chamfer top_left)
 		(uuid "b23eb19d-81d8-4fac-bf2f-51da830a94d9")
 	)
 	(pad "3" thru_hole circle
@@ -387,7 +392,7 @@
 		(remove_unused_layers no)
 		(uuid "c8d9c509-f6a4-40cb-8b01-8282afc2ea59")
 	)
-	(pad "29" thru_hole circle
+	(pad "29" thru_hole rect
 		(at 22.86 -5.08)
 		(size 1.524 1.524)
 		(drill 0.762)
@@ -395,7 +400,7 @@
 		(remove_unused_layers no)
 		(uuid "dd634ae5-f4ab-4307-bfea-29ed2ad8226e")
 	)
-	(pad "30" thru_hole circle
+	(pad "30" thru_hole rect
 		(at 20.32 -5.08)
 		(size 1.524 1.524)
 		(drill 0.762)
