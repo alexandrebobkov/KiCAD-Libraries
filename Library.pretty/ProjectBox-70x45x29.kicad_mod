@@ -165,6 +165,72 @@
 	)
 	(dimension
 		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "98ccd619-df41-47a9-b908-0ff38954ed30")
+		(pts
+			(xy 43 -2.3) (xy 42.9 -41.5)
+		)
+		(height 37.20265)
+		(gr_text "39.2001 mm"
+			(at 81.302525 -21.997838 -89.85383761)
+			(layer "Edge.Cuts")
+			(uuid "98ccd619-df41-47a9-b908-0ff38954ed30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "d570e507-aa87-4241-b20f-f26e37b397e8")
+		(pts
+			(xy -2.701851 -38.8) (xy 61 -38.8)
+		)
+		(height -21.1)
+		(gr_text "63.7019 mm"
+			(at 29.149075 -61.05 0)
+			(layer "Edge.Cuts")
+			(uuid "d570e507-aa87-4241-b20f-f26e37b397e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
 		(layer "User.1")
 		(uuid "50d86124-16ca-4ef7-805a-40472e642032")
 		(pts
