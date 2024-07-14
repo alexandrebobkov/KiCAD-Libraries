@@ -67,6 +67,90 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -2.701851 -38.8)
+		(end -2.7 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "012036d2-bf4e-4aeb-8716-567d78fbd275")
+	)
+	(fp_line
+		(start 0 -2.3)
+		(end 58.2 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f02e08de-a142-446e-aa99-f7bee2bd9799")
+	)
+	(fp_line
+		(start 58.3 -41.5)
+		(end 0.1 -41.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cfe138d1-608c-43e2-a6db-93f556779b78")
+	)
+	(fp_line
+		(start 61.001851 -5)
+		(end 61 -38.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7d9c0f3-dc8d-41aa-b80b-c08dff317558")
+	)
+	(fp_arc
+		(start -2.701851 -38.8)
+		(mid -1.874808 -40.745531)
+		(end 0.1 -41.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3612ef18-ff13-444e-8ebc-2c70f3986247")
+	)
+	(fp_arc
+		(start 0 -2.3)
+		(mid -1.909188 -3.090812)
+		(end -2.7 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "964b45a4-20e0-4bd6-bc18-7390df6b0fd2")
+	)
+	(fp_arc
+		(start 58.3 -41.5)
+		(mid 60.209188 -40.709188)
+		(end 61 -38.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3743281d-dfe2-4c17-be00-afc5b8dd4bdc")
+	)
+	(fp_arc
+		(start 61.001851 -5)
+		(mid 60.174808 -3.054469)
+		(end 58.2 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f255d81-c382-4e11-9f62-bce8bbdaf888")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -184,5 +268,17 @@
 	(group ""
 		(uuid "ab04a8b2-8bbd-4ad6-9a3c-c83f8a8e1d92")
 		(members "9515d501-0f6f-4fa4-acfc-6d772b8e2774" "f65c93e1-aa8f-4ad0-88c0-af1161120d41")
+	)
+	(group ""
+		(uuid "c7f77025-417f-42ea-97cc-ee8998748d9c")
+		(members "1f255d81-c382-4e11-9f62-bce8bbdaf888" "964b45a4-20e0-4bd6-bc18-7390df6b0fd2"
+			"f02e08de-a142-446e-aa99-f7bee2bd9799"
+		)
+	)
+	(group ""
+		(uuid "eb7feaad-268a-47b4-b60c-db30515324d0")
+		(members "3612ef18-ff13-444e-8ebc-2c70f3986247" "3743281d-dfe2-4c17-be00-afc5b8dd4bdc"
+			"cfe138d1-608c-43e2-a6db-93f556779b78"
+		)
 	)
 )
