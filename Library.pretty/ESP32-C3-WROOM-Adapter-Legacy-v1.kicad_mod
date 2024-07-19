@@ -1540,10 +1540,46 @@
 		(uuid "d2d36aab-adaa-46c7-b561-a7bc3300f9be")
 	)
 	(pad "9" smd rect
+		(at -0.19 -1.200001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f67bc9f-9aef-41cc-9aaf-3a8aa5852f10")
+	)
+	(pad "9" smd rect
+		(at 0.91 -3.400001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "67e39ce4-bbd6-4d39-9429-bd2b7a1b6375")
+	)
+	(pad "9" smd rect
+		(at 0.91 -2.300001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7c5cfded-bfbd-49e3-be78-98d6d94e063b")
+	)
+	(pad "9" smd rect
 		(at 0.91 -1.200001)
 		(size 0.7112 0.7112)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7db5eb85-3dbf-4350-8beb-a0e28e9977ed")
+	)
+	(pad "9" smd rect
+		(at 2.01 -3.400001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17c549fc-8caa-4783-b1b2-4104b7b8cefd")
+	)
+	(pad "9" smd rect
+		(at 2.01 -2.300001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "562db5e8-0262-4938-b05c-420d20ce6c5c")
+	)
+	(pad "9" smd rect
+		(at 2.01 -1.200001)
+		(size 0.7112 0.7112)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c9073a0-5caf-4495-b61b-9321da42bd85")
 	)
 	(pad "10" smd rect
 		(at 8.7 3.499997)
@@ -1670,42 +1706,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "bf5c9d75-2e7d-4913-ae58-d815e52c98a4")
-	)
-	(pad "19" smd rect
-		(at 0.91 -2.300001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7c5cfded-bfbd-49e3-be78-98d6d94e063b")
-	)
-	(pad "22" smd rect
-		(at -0.19 -1.200001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "3f67bc9f-9aef-41cc-9aaf-3a8aa5852f10")
-	)
-	(pad "24" smd rect
-		(at 2.01 -1.200001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "6c9073a0-5caf-4495-b61b-9321da42bd85")
-	)
-	(pad "25" smd rect
-		(at 2.01 -2.300001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "562db5e8-0262-4938-b05c-420d20ce6c5c")
-	)
-	(pad "26" smd rect
-		(at 2.01 -3.400001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "17c549fc-8caa-4783-b1b2-4104b7b8cefd")
-	)
-	(pad "27" smd rect
-		(at 0.91 -3.400001)
-		(size 0.7112 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "67e39ce4-bbd6-4d39-9429-bd2b7a1b6375")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32D.wrl"
 		(offset
