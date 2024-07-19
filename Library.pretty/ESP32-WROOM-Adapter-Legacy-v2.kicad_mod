@@ -552,7 +552,7 @@
 		)
 	)
 	(fp_text user "PROG"
-		(at 12.7 12.7 0)
+		(at 12.7 15.24 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
 		(uuid "e975a6bf-4c73-4ac7-ba75-136cc790d4cc")
@@ -562,7 +562,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(fp_text user "5 mm"
@@ -744,7 +744,7 @@
 		(uuid "31ac9461-a388-43cf-aeb3-7a967eaad91b")
 	)
 	(pad "" thru_hole circle
-		(at 15.24 15.24 90)
+		(at 15.24 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
