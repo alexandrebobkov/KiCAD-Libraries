@@ -1422,14 +1422,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fecb4bff-7aed-493d-93e9-e947a4867bce")
 	)
-	(pad "2" thru_hole oval
-		(at -20.32 -5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "8067b747-80ae-4405-8b5f-c197bb94a363")
-	)
 	(pad "2" thru_hole circle
 		(at -12.7 -7.62)
 		(size 1.7 1.7)
