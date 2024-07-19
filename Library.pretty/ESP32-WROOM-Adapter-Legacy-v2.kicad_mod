@@ -6,7 +6,7 @@
 	(descr "ESP32-WROOM-Adapter")
 	(tags "ESP32-D0WD Espressif ESP32-WROOM")
 	(property "Reference" "ESP32-D**"
-		(at -10.61 8.43 90)
+		(at -10.61 3.7 90)
 		(layer "F.SilkS")
 		(uuid "daa5e4ac-a759-4bcc-b120-37e70b41461b")
 		(effects
@@ -379,8 +379,8 @@
 		(uuid "92bf65ae-96d4-47b4-9dc9-0a8f10a74e44")
 	)
 	(fp_circle
-		(center -15.8 -10.700001)
-		(end -14.8 -10.700001)
+		(center -15.805401 -10.700001)
+		(end -14.805401 -10.700001)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -388,6 +388,39 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "90cab467-7a34-4cd4-8a71-104ab03b815b")
+	)
+	(fp_circle
+		(center -15.805401 20.860001)
+		(end -14.805401 20.860001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "979f6e03-94bc-481d-b671-5d7448ad2c74")
+	)
+	(fp_circle
+		(center 15.78 -10.7)
+		(end 16.78 -10.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a78d0663-30a3-4ceb-b52d-62fe15cd0ee3")
+	)
+	(fp_circle
+		(center 15.78 20.86)
+		(end 16.78 20.86)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "590f40e9-fa75-4847-ab31-8cf44d94d18d")
 	)
 	(fp_line
 		(start -24.25 -30.99)
