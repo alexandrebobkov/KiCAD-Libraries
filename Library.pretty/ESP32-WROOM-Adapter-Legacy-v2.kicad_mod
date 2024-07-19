@@ -980,7 +980,7 @@
 		(uuid "2e7da9d8-8975-42d2-866b-a125626bc50a")
 	)
 	(pad "15" thru_hole circle
-		(at -10.16 15.24 90)
+		(at -10.16 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -994,7 +994,7 @@
 		(uuid "2e650b52-e7c7-470a-b2b5-a437c4f2f835")
 	)
 	(pad "16" thru_hole circle
-		(at -7.62 15.24 90)
+		(at -7.62 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1008,7 +1008,7 @@
 		(uuid "e3ec59c3-732c-404a-bbe9-b4a585c423b1")
 	)
 	(pad "17" thru_hole circle
-		(at -5.08 15.24 90)
+		(at -5.08 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1022,7 +1022,7 @@
 		(uuid "ea2c5b57-546e-43fb-a8c7-53d8e0f0b691")
 	)
 	(pad "18" thru_hole circle
-		(at -2.54 15.24 90)
+		(at -2.54 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1042,7 +1042,7 @@
 		(uuid "56f2393a-d8ef-44d5-acc7-8f78893288dd")
 	)
 	(pad "19" thru_hole circle
-		(at 0 15.24 90)
+		(at 0 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1056,7 +1056,7 @@
 		(uuid "f9421805-7a29-411c-9a15-20bb8cfe2b75")
 	)
 	(pad "20" thru_hole circle
-		(at 2.54 15.24 90)
+		(at 2.54 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1070,7 +1070,7 @@
 		(uuid "0077afc9-d62e-41da-9236-1615e7e769fa")
 	)
 	(pad "21" thru_hole circle
-		(at 5.08 15.24 90)
+		(at 5.08 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1084,7 +1084,7 @@
 		(uuid "00b8442e-56b4-4c81-8166-931a0f4d7a6a")
 	)
 	(pad "22" thru_hole circle
-		(at 7.62 15.24 90)
+		(at 7.62 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1098,7 +1098,7 @@
 		(uuid "5b65d503-b4e8-41bd-a1b2-846eebc2b5c9")
 	)
 	(pad "23" thru_hole circle
-		(at 10.16 15.24 90)
+		(at 10.16 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
@@ -1112,7 +1112,7 @@
 		(uuid "3651f59a-051c-44a3-b82b-33b07afcfb86")
 	)
 	(pad "24" thru_hole circle
-		(at 12.7 15.24 90)
+		(at 12.7 12.7 90)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
