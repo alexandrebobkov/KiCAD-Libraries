@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Project Box 65x40")
+	(tags "Project Box 65x40")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
@@ -246,6 +248,72 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "139d17e0-f4c9-4572-b2f4-7d80f0b3d4c6")
+		(pts
+			(xy 0 -13) (xy 65 -13)
+		)
+		(height 10.5)
+		(gr_text "65.0000 mm"
+			(at 32.5 -3.65 0)
+			(layer "Dwgs.User")
+			(uuid "139d17e0-f4c9-4572-b2f4-7d80f0b3d4c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "363d907f-e294-426c-9388-c7f2c9d42d3d")
+		(pts
+			(xy 62 -10) (xy 62 -50)
+		)
+		(height 10.5)
+		(gr_text "40.0000 mm"
+			(at 71.35 -30 90)
+			(layer "Dwgs.User")
+			(uuid "363d907f-e294-426c-9388-c7f2c9d42d3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "GND" thru_hole circle
 		(at 3 -47)
