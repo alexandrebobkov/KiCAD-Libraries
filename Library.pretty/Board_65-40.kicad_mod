@@ -315,7 +315,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
-	(pad "GND" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 3 -47)
 		(size 5 5)
 		(drill 3)
@@ -323,28 +323,31 @@
 		(remove_unused_layers no)
 		(uuid "6d84d622-3454-496d-8ef2-005889d62ecf")
 	)
-	(pad "GND" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 3 -13)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(uuid "2a70d300-8997-464c-adad-c3fa901c62fc")
 	)
-	(pad "GND" thru_hole circle
-		(at 62 -47)
-		(size 5 5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "b53b727d-f861-41a9-bcb8-c72a8e755694")
-	)
-	(pad "GND" thru_hole circle
+	(pad "3" thru_hole circle
 		(at 62 -13)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(uuid "d82020dd-a613-468d-ae22-a0ff0cb21a26")
+	)
+	(pad "4" thru_hole circle
+		(at 62 -47)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "b53b727d-f861-41a9-bcb8-c72a8e755694")
 	)
 )
