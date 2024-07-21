@@ -6,7 +6,7 @@
 	(descr "ESP32 DevBoard 38 pins")
 	(tags "ESP32 DevBoard 38")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 0.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b402446d-1b7a-401c-b7a8-b751312eca93")
@@ -170,8 +170,8 @@
 		(uuid "f871e0b9-2d1c-4394-95a6-19b6c64e7cf4")
 	)
 	(fp_rect
-		(start -2.54 -50.8)
-		(end 2.54 0)
+		(start -1.75 -50)
+		(end 1.75 -0.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -181,8 +181,8 @@
 		(uuid "e0741dfb-0c23-4b69-8b45-371e45b772d7")
 	)
 	(fp_rect
-		(start 7.62 -50.8)
-		(end 17.78 -48.26)
+		(start 9.92 -50)
+		(end 15.18 -47.86)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -192,8 +192,8 @@
 		(uuid "828f0772-bddb-48c3-b4f9-ed96987ae6a3")
 	)
 	(fp_rect
-		(start 22.86 -50.8)
-		(end 27.94 0)
+		(start 23.75 -50)
+		(end 27 -0.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -372,8 +372,64 @@
 		(layer "F.Fab")
 		(uuid "e4764241-584b-4e29-9fe5-9f6cf7a26e62")
 	)
+	(fp_text user "GND"
+		(at -3 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "021b492e-364b-4cfa-9fad-29dc062f947c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "5V"
+		(at 28 -48.2 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "78894cdf-67d0-478a-8895-77a80e852bb9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "3V3"
+		(at 28 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "81203640-3bac-46c1-9d72-c4c13a848f11")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 28 -35.5 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "c0f61a3c-02ea-4df6-b1af-16d3a9abadb5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(fp_text user "USB"
-		(at 12.7 -48.26 0)
+		(at 12.55 -48.26 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c72c1f94-9e06-4cfc-92fa-0ccda1d39ad4")
@@ -386,8 +442,22 @@
 			(justify bottom)
 		)
 	)
+	(fp_text user "5V"
+		(at -4.7 -17.7 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "d58ff46d-d1ff-4d8a-bdeb-965a3af76f6d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -25.4 90)
+		(at 3 -25.4 90)
 		(layer "F.Fab")
 		(uuid "017315f1-05b8-44e7-8d42-467d1c73ad21")
 		(effects
