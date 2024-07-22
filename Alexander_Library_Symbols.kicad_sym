@@ -8456,15 +8456,15 @@
 	(symbol "AMS1117-3V3"
 		(extends "AMS1117")
 		(property "Reference" "U"
-			(at -4.572 0 0)
+			(at 0 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3V3"
-			(at 3.302 0 0)
+		(property "Value" "AMS1117-3V3"
+			(at -0.508 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8490,7 @@
 			)
 		)
 		(property "Description" "AMS1117"
-			(at 0 2.032 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,6 +8499,61 @@
 			)
 		)
 		(property "ki_keywords" "AMS1117 3V3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "AMS1117-5V"
+		(extends "AMS1117")
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5V"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMS1117"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AMS1117 5V"
 			(at 0 0 0)
 			(effects
 				(font
