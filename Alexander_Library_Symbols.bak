@@ -1624,10 +1624,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 11.43 0 270)
+			(pin power_out line
+				(at 12.7 -34.29 90)
 				(length 2.54)
-				(name "5V"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1642,10 +1642,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 -34.29 90)
+			(pin power_in line
+				(at 11.43 0 270)
 				(length 2.54)
-				(name "GND"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8471,7 +8471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
 			(at 0 4.318 0)
 			(effects
 				(font
