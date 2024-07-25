@@ -656,6 +656,20 @@
 		(layer "F.Fab")
 		(uuid "be06e26e-18f5-415f-bea0-d607176710ff")
 	)
+	(fp_text user "! 3.3V ONLY !"
+		(at 0.1 15.6 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "50bab6ac-4dc5-44ec-9738-2a3a19e7e060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "2024-07-24"
 		(at 0 22 0)
 		(unlocked yes)
@@ -669,8 +683,22 @@
 			(justify bottom mirror)
 		)
 	)
+	(fp_text user "ESP32-WROOM-32D"
+		(at -0.5 -0.1 -45)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "9d1840e5-f0e1-4da8-a808-edd52b6f4638")
+		(effects
+			(font
+				(size 1.6 1.7)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "by: Alexander Bobkov"
-		(at 8 -10 0)
+		(at -2 2 -45)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "cb9c6598-a0a9-4a8d-a250-9581ef5249b3")
@@ -679,7 +707,7 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(fp_text user "ESP32-WROOM Legacy Adapter v3"
@@ -693,19 +721,6 @@
 				(thickness 0.1)
 			)
 			(justify bottom mirror)
-		)
-	)
-	(fp_text user "ESP32-WROOM-32D"
-		(at 0 21 0)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "9d1840e5-f0e1-4da8-a808-edd52b6f4638")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
 		)
 	)
 	(fp_text user "5 mm"
@@ -774,7 +789,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole rect
 		(at -15.24 -7.62)
 		(size 1.7 1.7)
 		(drill 1)
@@ -983,14 +998,6 @@
 		(size 1.5 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2e650b52-e7c7-470a-b2b5-a437c4f2f835")
-	)
-	(pad "15" thru_hole circle
-		(at 15.24 12.7)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "fe8c9090-2345-4831-a72e-b14bb003a683")
 	)
 	(pad "16" thru_hole circle
 		(at -7.62 12.7)
@@ -1324,8 +1331,8 @@
 	)
 	(pad "38" thru_hole circle
 		(at 15.24 10.16)
-		(size 1.524 1.524)
-		(drill 0.762)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "00d2ce8b-53ea-45c9-bd1e-fb557e73837c")
