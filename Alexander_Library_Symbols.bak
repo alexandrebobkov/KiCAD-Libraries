@@ -1467,16 +1467,16 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -12.7 0 0)
+		(property "Value" "ESP32-C3 SuperMini"
+			(at 25.654 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -12.7 0 0)
+		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
+			(at -13.716 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,6 +1495,15 @@
 		)
 		(property "Description" ""
 			(at -12.7 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "ESP32 C3 Super Mini"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
