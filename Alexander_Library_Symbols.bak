@@ -9111,8 +9111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at 4.064 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9121,7 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 0 0 0)
+			(at 2.032 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,6 +9160,17 @@
 				)
 			)
 			(rectangle
+				(start 2.286 -12.7)
+				(end 2.794 -11.684)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start 10.16 -7.366)
 				(end 9.144 -7.874)
 				(stroke
@@ -9182,6 +9193,17 @@
 				)
 			)
 			(rectangle
+				(start 10.16 5.334)
+				(end 9.144 4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start 10.16 7.874)
 				(end 9.144 7.366)
 				(stroke
@@ -9195,7 +9217,7 @@
 		)
 		(symbol "USB_C_Receptacle_PowerOnly_6P_2171750001_0_1"
 			(rectangle
-				(start -10.16 12.7)
+				(start -15.24 12.7)
 				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
@@ -9395,7 +9417,7 @@
 			)
 		)
 		(symbol "USB_C_Receptacle_PowerOnly_6P_2171750001_1_1"
-			(pin passive line
+			(pin power_in line
 				(at 0 -17.78 90)
 				(length 5.08)
 				(name "GND"
@@ -9431,7 +9453,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "VBUS"
@@ -9449,9 +9471,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -17.78 90)
-				(length 5.08) hide
+			(pin power_in line
+				(at 2.54 -17.78 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -9485,9 +9507,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 15.24 7.62 180)
-				(length 5.08) hide
+			(pin power_out line
+				(at 15.24 5.08 180)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -9496,6 +9518,42 @@
 					)
 				)
 				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -17.78 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -17.78 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9513,7 +9571,25 @@
 						)
 					)
 				)
-				(number "S1"
+				(number "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -17.78 90)
+				(length 5.08)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S4"
 					(effects
 						(font
 							(size 1.27 1.27)
