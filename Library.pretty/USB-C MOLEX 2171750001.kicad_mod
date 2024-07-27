@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "USB-C RCP USB2.0 6POS")
+	(descr "USB-C POWER RCP USB2.0 6POS")
 	(tags "USB-C")
 	(property "Reference" "REF**"
 		(at -1.5875 -8.605 0)
