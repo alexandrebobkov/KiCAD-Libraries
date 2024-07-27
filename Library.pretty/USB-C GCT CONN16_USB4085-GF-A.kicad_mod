@@ -1,4 +1,4 @@
-(footprint "CONN16_USB4085-GF-A_GCT"
+(footprint "USB-C GCT CONN16_USB4085-GF-A"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN16_USB4085-GF-A_GCT"
+	(property "Value" "USB-C GCT CONN16_USB4085-GF-A"
 		(at 2.975 0.675 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -526,7 +526,7 @@
 		(layers)
 		(uuid "e3f15671-3851-4eff-b5e6-f9a7fa91fb16")
 	)
-	(pad "1" thru_hole circle
+	(pad "A1" thru_hole circle
 		(at 0 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -534,7 +534,7 @@
 		(remove_unused_layers no)
 		(uuid "2313024f-3034-47dc-a97b-73a1f7d2f2d1")
 	)
-	(pad "2" thru_hole circle
+	(pad "A4" thru_hole circle
 		(at 0.850001 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -542,7 +542,7 @@
 		(remove_unused_layers no)
 		(uuid "10066999-ab9e-45cf-87be-0f41e2690044")
 	)
-	(pad "3" thru_hole circle
+	(pad "A5" thru_hole circle
 		(at 1.699999 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -550,7 +550,7 @@
 		(remove_unused_layers no)
 		(uuid "56725a9e-e2f9-451d-a7c0-3c40f2365a8f")
 	)
-	(pad "4" thru_hole circle
+	(pad "A6" thru_hole circle
 		(at 2.55 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -558,7 +558,7 @@
 		(remove_unused_layers no)
 		(uuid "258ce519-67ad-4778-8362-48e9e4312c8f")
 	)
-	(pad "5" thru_hole circle
+	(pad "A7" thru_hole circle
 		(at 3.400001 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -566,7 +566,7 @@
 		(remove_unused_layers no)
 		(uuid "028fd62b-a4d5-4b7c-97df-576584a03dc2")
 	)
-	(pad "6" thru_hole circle
+	(pad "A8" thru_hole circle
 		(at 4.250002 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -574,7 +574,7 @@
 		(remove_unused_layers no)
 		(uuid "15bcb18b-f7bc-4221-8253-f38d8b94db13")
 	)
-	(pad "7" thru_hole circle
+	(pad "A9" thru_hole circle
 		(at 5.1 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -582,7 +582,7 @@
 		(remove_unused_layers no)
 		(uuid "7826ccd6-3f84-411b-9829-82f9d2d1e47b")
 	)
-	(pad "8" thru_hole circle
+	(pad "A12" thru_hole circle
 		(at 5.950001 0)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -590,63 +590,7 @@
 		(remove_unused_layers no)
 		(uuid "bb68eb26-2cfa-4b46-bd5d-c73da2567f9d")
 	)
-	(pad "9" thru_hole circle
-		(at 0 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c9e40e2b-7267-44fe-aead-d5847c75878e")
-	)
-	(pad "10" thru_hole circle
-		(at 0.850001 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "36d0635d-97c7-4f54-8338-b94622c01140")
-	)
-	(pad "11" thru_hole circle
-		(at 1.699999 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c1328b5b-6489-4ba6-bfc4-c0fd566eb76a")
-	)
-	(pad "12" thru_hole circle
-		(at 2.55 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "9881f9f6-a0a4-49c0-8cb4-13c366b94719")
-	)
-	(pad "13" thru_hole circle
-		(at 3.400001 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "30ab77e7-c969-472a-89f4-1ea16bb563f5")
-	)
-	(pad "14" thru_hole circle
-		(at 4.250002 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "10c6abd9-bfa1-415c-8e05-b2f87a0f14b8")
-	)
-	(pad "15" thru_hole circle
-		(at 5.1 1.35)
-		(size 0.6604 0.6604)
-		(drill 0.4064)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e1527443-f486-48ba-b491-b068ee7620b0")
-	)
-	(pad "16" thru_hole circle
+	(pad "B1" thru_hole circle
 		(at 5.950001 1.35)
 		(size 0.6604 0.6604)
 		(drill 0.4064)
@@ -654,23 +598,63 @@
 		(remove_unused_layers no)
 		(uuid "3532b1a0-1ebd-4673-b891-10c2a63523c0")
 	)
-	(pad "17" thru_hole oval
-		(at -1.35 0.980001 90)
-		(size 2.6162 1.1176)
-		(drill 0.0254)
+	(pad "B4" thru_hole circle
+		(at 5.1 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c113fd76-3bd2-4bca-9bed-6ba5a7de3c36")
+		(uuid "e1527443-f486-48ba-b491-b068ee7620b0")
 	)
-	(pad "18" thru_hole oval
-		(at 7.299985 0.98 90)
-		(size 2.6162 1.1176)
-		(drill 0.0254)
+	(pad "B5" thru_hole circle
+		(at 4.250002 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3e93888a-c003-4356-a1ce-b22178bdcdd6")
+		(uuid "10c6abd9-bfa1-415c-8e05-b2f87a0f14b8")
 	)
-	(pad "19" thru_hole oval
+	(pad "B6" thru_hole circle
+		(at 3.400001 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30ab77e7-c969-472a-89f4-1ea16bb563f5")
+	)
+	(pad "B7" thru_hole circle
+		(at 2.55 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9881f9f6-a0a4-49c0-8cb4-13c366b94719")
+	)
+	(pad "B8" thru_hole circle
+		(at 1.699999 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1328b5b-6489-4ba6-bfc4-c0fd566eb76a")
+	)
+	(pad "B9" thru_hole circle
+		(at 0.850001 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36d0635d-97c7-4f54-8338-b94622c01140")
+	)
+	(pad "B12" thru_hole circle
+		(at 0 1.35)
+		(size 0.6604 0.6604)
+		(drill 0.4064)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9e40e2b-7267-44fe-aead-d5847c75878e")
+	)
+	(pad "S1" thru_hole oval
 		(at -1.349985 4.365 90)
 		(size 1.905 1.1176)
 		(drill 0.0254)
@@ -678,13 +662,29 @@
 		(remove_unused_layers no)
 		(uuid "420c73c7-fea0-4c98-ac8d-6741a2efa925")
 	)
-	(pad "20" thru_hole oval
+	(pad "S2" thru_hole oval
 		(at 7.299985 4.365 90)
 		(size 1.905 1.1176)
 		(drill 0.0254)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "bdb2b508-61ae-4806-8f01-637c0899e6de")
+	)
+	(pad "S3" thru_hole oval
+		(at -1.35 0.980001 90)
+		(size 2.6162 1.1176)
+		(drill 0.0254)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c113fd76-3bd2-4bca-9bed-6ba5a7de3c36")
+	)
+	(pad "S4" thru_hole oval
+		(at 7.299985 0.98 90)
+		(size 2.6162 1.1176)
+		(drill 0.0254)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e93888a-c003-4356-a1ce-b22178bdcdd6")
 	)
 	(model "C:/Users/alex/github/KiCAD-Libraries/USB4085-GF-A_REVB.step"
 		(offset

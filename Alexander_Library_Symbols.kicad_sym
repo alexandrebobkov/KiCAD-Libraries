@@ -9100,8 +9100,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 3.81 0 0)
+		(property "Footprint" "Alexander Footprint Library:USB-C GCT CONN16_USB4085-GF-A"
+			(at 1.27 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9961,7 @@
 		)
 		(symbol "USB-C_Receptacle_PowerOnly_6P_MOLEX-2171750001_0_1"
 			(rectangle
-				(start -15.24 12.7)
+				(start -11.43 12.7)
 				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
@@ -10162,7 +10162,7 @@
 		)
 		(symbol "USB-C_Receptacle_PowerOnly_6P_MOLEX-2171750001_1_1"
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 2.54 -17.78 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -10217,7 +10217,7 @@
 			)
 			(pin power_in line
 				(at 2.54 -17.78 90)
-				(length 5.08)
+				(length 5.08) hide
 				(name "GND"
 					(effects
 						(font
@@ -10270,8 +10270,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -17.78 90)
-				(length 5.08)
+				(at -5.08 -17.78 90)
+				(length 5.08) hide
 				(name "SHIELD"
 					(effects
 						(font
@@ -10288,8 +10288,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -17.78 90)
-				(length 5.08)
+				(at -5.08 -17.78 90)
+				(length 5.08) hide
 				(name "SHIELD"
 					(effects
 						(font
@@ -10306,8 +10306,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -17.78 90)
-				(length 5.08)
+				(at -5.08 -17.78 90)
+				(length 5.08) hide
 				(name "SHIELD"
 					(effects
 						(font
