@@ -777,6 +777,7 @@
 						)
 					)
 				)
+				(alternate "USB_D-" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 12.7 -21.59 180)
@@ -795,6 +796,7 @@
 						)
 					)
 				)
+				(alternate "USB_D+" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 12.7 -19.05 180)

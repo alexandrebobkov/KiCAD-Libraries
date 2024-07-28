@@ -411,8 +411,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 1)
+					(type background)
 				)
 			)
 		)
@@ -929,6 +928,14 @@
 			)
 		)
 		(symbol "Conn_ESP32-WROOM-Socket-38P-v3_1_1"
+			(text "ESP32-C3-WROOM"
+				(at -1.778 -29.464 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin power_out line
 				(at -1.27 -58.42 90)
 				(length 2.54)
