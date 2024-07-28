@@ -1832,7 +1832,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02-N4"
-			(at -12.7 -71.882 0)
+			(at -13.208 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 		(symbol "ESP32-C3-WROOM-02-N4_0_0"
 			(rectangle
 				(start -12.7 20.32)
-				(end 12.7 -71.12)
+				(end 12.7 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
