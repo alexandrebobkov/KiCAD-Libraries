@@ -9100,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:CONN16_USB4085-GF-A_GCT"
+		(property "Footprint" "Alexander Footprint Library:USB-C GCT CONN16_USB4085-GF-A"
 			(at 1.27 24.384 0)
 			(effects
 				(font
