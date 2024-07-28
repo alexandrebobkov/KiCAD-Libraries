@@ -1832,7 +1832,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02-N4"
-			(at -12.7 -71.882 0)
+			(at -13.208 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1941,7 @@
 		(symbol "ESP32-C3-WROOM-02-N4_0_0"
 			(rectangle
 				(start -12.7 20.32)
-				(end 12.7 -71.12)
+				(end 12.7 -17.78)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2293,7 +2293,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -38.1 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__9"
 					(effects
@@ -2311,7 +2311,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -40.64 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__10"
 					(effects
@@ -2329,7 +2329,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -43.18 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__11"
 					(effects
@@ -2365,7 +2365,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -45.72 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__12"
 					(effects
@@ -2383,7 +2383,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -48.26 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__13"
 					(effects
@@ -2401,7 +2401,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -50.8 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__14"
 					(effects
@@ -2419,7 +2419,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -53.34 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__15"
 					(effects
@@ -2437,7 +2437,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -55.88 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__16"
 					(effects
@@ -2455,7 +2455,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -58.42 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__17"
 					(effects
@@ -2473,7 +2473,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -60.96 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__18"
 					(effects
@@ -2491,7 +2491,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -63.5 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__19"
 					(effects
@@ -2509,7 +2509,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -66.04 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__20"
 					(effects
@@ -2527,7 +2527,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -68.58 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__21"
 					(effects

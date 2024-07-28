@@ -2131,7 +2131,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -17.78 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__1"
 					(effects
@@ -2167,7 +2167,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -20.32 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__2"
 					(effects
@@ -2185,7 +2185,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -22.86 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__3"
 					(effects
@@ -2203,7 +2203,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -25.4 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__4"
 					(effects
@@ -2221,7 +2221,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -27.94 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__5"
 					(effects
@@ -2239,7 +2239,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -30.48 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__6"
 					(effects
@@ -2257,7 +2257,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -33.02 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__7"
 					(effects
@@ -2275,7 +2275,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -35.56 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__8"
 					(effects
@@ -2293,7 +2293,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -38.1 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__9"
 					(effects
@@ -2311,7 +2311,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -40.64 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__10"
 					(effects
@@ -2329,7 +2329,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -43.18 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__11"
 					(effects
@@ -2365,7 +2365,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -45.72 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__12"
 					(effects
@@ -2383,7 +2383,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -48.26 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__13"
 					(effects
@@ -2401,7 +2401,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -50.8 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__14"
 					(effects
@@ -2419,7 +2419,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -53.34 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__15"
 					(effects
@@ -2437,7 +2437,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -55.88 180)
+				(at 17.78 -15.24 180)
 				(length 5.08) hide
 				(name "GND__16"
 					(effects
@@ -2455,7 +2455,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -58.42 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__17"
 					(effects
@@ -2473,7 +2473,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -60.96 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__18"
 					(effects
@@ -2491,7 +2491,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -63.5 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__19"
 					(effects
@@ -2509,7 +2509,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -66.04 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__20"
 					(effects
@@ -2527,7 +2527,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -68.58 180)
+				(at 16.51 -15.24 180)
 				(length 5.08) hide
 				(name "GND__21"
 					(effects
