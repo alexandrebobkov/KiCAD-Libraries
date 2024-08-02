@@ -1,4 +1,4 @@
-(footprint "MOSFET-2N-CH-DMT3020-SO-8"
+(footprint "MOSFET-N-2CH-DMT3020-SO-8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MOSFET-2N-CH-DMT3020-SO-8"
+	(property "Value" "MOSFET-N-2CH-DMT3020-SO-8"
 		(at 0 4.05 0)
 		(layer "F.Fab")
 		(uuid "28b74d9f-3781-449f-be99-8cb9b73c0f33")
