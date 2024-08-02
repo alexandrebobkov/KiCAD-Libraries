@@ -9414,7 +9414,7 @@
 			)
 		)
 		(property "Value" "MOSFET-N-2CH-DMT3020"
-			(at -11.176 12.7 0)
+			(at 3.048 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" ""
 			(at 2.54 14.986 0)
 			(effects
 				(font
@@ -9449,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
+		(property "Sim.Device" ""
 			(at 0 -17.145 0)
 			(effects
 				(font
@@ -9458,7 +9458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
+		(property "Sim.Type" ""
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -9467,7 +9467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "Sim.Pins" ""
 			(at 0 -15.24 0)
 			(effects
 				(font
