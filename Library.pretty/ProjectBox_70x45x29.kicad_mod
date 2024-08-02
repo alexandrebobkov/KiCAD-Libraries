@@ -1,4 +1,4 @@
-(footprint "ProjectBox-70x45x29"
+(footprint "ProjectBox_70x45x29"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ProjectBox-70x45x29"
+	(property "Value" "ProjectBox_70x45x29"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

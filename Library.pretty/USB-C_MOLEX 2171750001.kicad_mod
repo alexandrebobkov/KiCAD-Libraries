@@ -1,4 +1,4 @@
-(footprint "USB-C MOLEX 2171750001"
+(footprint "USB-C_MOLEX 2171750001"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

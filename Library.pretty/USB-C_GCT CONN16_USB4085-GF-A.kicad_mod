@@ -1,4 +1,4 @@
-(footprint "USB-C GCT CONN16_USB4085-GF-A"
+(footprint "USB-C_GCT CONN16_USB4085-GF-A"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "USB-C GCT CONN16_USB4085-GF-A"
+	(property "Value" "USB-C_GCT CONN16_USB4085-GF-A"
 		(at 2.975 0.675 0)
 		(unlocked yes)
 		(layer "F.Fab")
