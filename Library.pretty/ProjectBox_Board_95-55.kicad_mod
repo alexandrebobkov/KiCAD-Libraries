@@ -1,0 +1,232 @@
+(footprint "ProjectBox_Board_95-55"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb7512d7-235a-428a-b891-5e3a32ebca2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ProjectBox_Board_95-55"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "79d081dd-1fae-4cff-8cbf-9acdfca0eb33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "023ddec5-ab73-46fc-9cff-00bb20b3f347")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb72f15b-4894-4622-9184-6eca15fbce38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fabfec48-1146-4205-b7ff-9b84f00eb1bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 52)
+		(end 0 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "917a410c-35dc-4602-8a7a-0b6aa967a579")
+	)
+	(fp_line
+		(start 3 0)
+		(end 92 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f0110f2-8f5a-4ad9-9fe2-6999ea6cbb30")
+	)
+	(fp_line
+		(start 92 55)
+		(end 3 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d2e955ca-abea-4e47-9ac8-6db4c0503bf2")
+	)
+	(fp_line
+		(start 95 3)
+		(end 95 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f41ad3d8-1d74-474e-82d8-a1e555c3ed33")
+	)
+	(fp_arc
+		(start 0 3)
+		(mid 0.87868 0.87868)
+		(end 3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "810226bd-fcbc-4c6c-92b7-867e2da28cfa")
+	)
+	(fp_arc
+		(start 3 55)
+		(mid 0.87868 54.12132)
+		(end 0 52)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6828425a-1346-4b97-904c-71da01e4fdee")
+	)
+	(fp_arc
+		(start 92 0)
+		(mid 94.12132 0.87868)
+		(end 95 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea2f3e97-4cd6-458f-b5c3-8fcf4e2bbe47")
+	)
+	(fp_arc
+		(start 95 52)
+		(mid 94.12132 54.12132)
+		(end 92 55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "239a2b88-70f8-4230-a0c8-c2bce551d52a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2802b35c-23a2-4b9d-aaa0-e910d169f233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "895a64dd-fed5-4bef-813a-72d0f1ae27ec")
+		(pts
+			(xy 0 55) (xy 95 55)
+		)
+		(height 45.1)
+		(gr_text "95.0000 mm"
+			(at 47.5 98.95 0)
+			(layer "Dwgs.User")
+			(uuid "895a64dd-fed5-4bef-813a-72d0f1ae27ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "da287353-7df6-416c-a110-9e1dbfd8670b")
+		(pts
+			(xy 95 0) (xy 95 55)
+		)
+		(height -85)
+		(gr_text "55.0000 mm"
+			(at 178.85 27.5 90)
+			(layer "Dwgs.User")
+			(uuid "da287353-7df6-416c-a110-9e1dbfd8670b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+)
