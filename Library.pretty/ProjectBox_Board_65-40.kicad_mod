@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Project Box 65x40")
 	(tags "Project Box 65x40")
-	(property "Reference" "REF**"
+	(property "Reference" "BRD**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "ProjectBox_Board_65-40"
+	(property "Value" "ProjectBox_Board_65x40"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Alexander Footprint Library:ProjectBox_Board_65-40"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Project Box 65x40"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
