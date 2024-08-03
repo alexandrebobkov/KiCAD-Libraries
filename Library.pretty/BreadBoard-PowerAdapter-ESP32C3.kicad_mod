@@ -6,7 +6,7 @@
 	(descr "Universal Power Adapter for Bread Board")
 	(tags "Power Adapter Bread Board")
 	(property "Reference" "BRD**"
-		(at 0 -15.24 0)
+		(at 0 -26.67 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "eb28b312-ccf5-4086-af96-2dc70b08668c")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "BreadBoard-PowerAdapter-ESP32C3"
-		(at 0 -11.43 0)
+		(at 0 -22.86 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "888916df-9240-4a4a-89c5-e9dfd3a3a042")
@@ -56,7 +56,7 @@
 		)
 	)
 	(property "Description" "Universal Power Adapter for Bread Board"
-		(at 0 -10.16 0)
+		(at 0 -21.59 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -71,7 +71,7 @@
 	(attr through_hole)
 	(fp_line
 		(start -25.4 12.7)
-		(end -25.4 -11.43)
+		(end -25.4 -22.86)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -90,8 +90,8 @@
 		(uuid "e7907f39-4c29-473a-bf4f-84a6cf15db5c")
 	)
 	(fp_line
-		(start -22.86 -13.97)
-		(end 22.86 -13.97)
+		(start -22.86 -25.4)
+		(end 22.86 -25.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -100,7 +100,7 @@
 		(uuid "023b62d1-3240-4d02-ad95-5fc2644b4cc9")
 	)
 	(fp_line
-		(start 25.4 -11.43)
+		(start 25.4 -22.86)
 		(end 25.4 12.7)
 		(stroke
 			(width 0.05)
@@ -110,9 +110,9 @@
 		(uuid "bba8f151-42a4-4c0d-9f52-46a8221205cf")
 	)
 	(fp_arc
-		(start -25.4 -11.43)
-		(mid -24.656051 -13.226051)
-		(end -22.86 -13.97)
+		(start -25.4 -22.86)
+		(mid -24.656051 -24.656051)
+		(end -22.86 -25.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -132,9 +132,9 @@
 		(uuid "7bd351ec-26a8-403f-ba04-efdfe75dc255")
 	)
 	(fp_arc
-		(start 22.86 -13.97)
-		(mid 24.656051 -13.226051)
-		(end 25.4 -11.43)
+		(start 22.86 -25.4)
+		(mid 24.656051 -24.656051)
+		(end 25.4 -22.86)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -154,7 +154,7 @@
 		(uuid "9669b8e2-70e8-409b-bb30-a00f3e46cd29")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -7.62 0)
+		(at 0 -19.05 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d9c00428-0a29-4dcf-80d0-e165eb51ae8a")
@@ -210,39 +210,6 @@
 			(at 15.24 15.36 0)
 			(layer "Dwgs.User")
 			(uuid "5c763591-8450-495b-b308-72e3f47d258f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "84ce9b4d-d611-44d7-b6a4-f3c6e8fb126a")
-		(pts
-			(xy 20.32 13.97) (xy 20.32 -13.97)
-		)
-		(height 55.88)
-		(gr_text "27.9400 mm"
-			(at 75.05 0 90)
-			(layer "Dwgs.User")
-			(uuid "84ce9b4d-d611-44d7-b6a4-f3c6e8fb126a")
 			(effects
 				(font
 					(size 1 1)
@@ -399,6 +366,39 @@
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
+		(uuid "bf43eb57-e208-4a86-b6f6-7c965f6983ee")
+		(pts
+			(xy 19.05 13.97) (xy 19.05 -25.4)
+		)
+		(height 38.1)
+		(gr_text "39.3700 mm"
+			(at 56 -5.715 90)
+			(layer "Dwgs.User")
+			(uuid "bf43eb57-e208-4a86-b6f6-7c965f6983ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
 		(uuid "cc402928-349b-4140-a5a9-d10e7b50e584")
 		(pts
 			(xy -16.51 11.43) (xy -13.97 11.43)
@@ -408,72 +408,6 @@
 			(at -15.24 15.36 0)
 			(layer "Dwgs.User")
 			(uuid "cc402928-349b-4140-a5a9-d10e7b50e584")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "d475a30a-059e-4735-86ce-a0887b9f66e5")
-		(pts
-			(xy -22.86 -11.43) (xy 22.86 -11.43)
-		)
-		(height -7.62)
-		(gr_text "45.7200 mm"
-			(at 0 -20.2 0)
-			(layer "Dwgs.User")
-			(uuid "d475a30a-059e-4735-86ce-a0887b9f66e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "fee7f6ed-2592-48ce-878e-459ec2d8c490")
-		(pts
-			(xy 22.86 -11.43) (xy 22.86 -13.97)
-		)
-		(height 10.16)
-		(gr_text "2.5400 mm"
-			(at 31.87 -12.7 90)
-			(layer "Dwgs.User")
-			(uuid "fee7f6ed-2592-48ce-878e-459ec2d8c490")
 			(effects
 				(font
 					(size 1 1)
@@ -656,7 +590,7 @@
 		(uuid "72fc9726-3025-4d46-a43a-0c2889e34d93")
 	)
 	(pad "GND" thru_hole circle
-		(at -22.86 -11.43)
+		(at -22.86 -22.86)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
@@ -664,7 +598,7 @@
 		(uuid "ffc6e70c-23eb-4f6a-a87b-3a1743e277d6")
 	)
 	(pad "GND" thru_hole circle
-		(at 22.86 -11.43)
+		(at 22.86 -22.86)
 		(size 5 5)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
