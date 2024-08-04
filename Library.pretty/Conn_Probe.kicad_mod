@@ -100,12 +100,10 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd oval
 		(at 0 0)
-		(size 5 5)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(size 5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "bf29d5b2-1ed9-48cf-a932-2258e5e431d0")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
