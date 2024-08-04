@@ -2204,7 +2204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Alexander Footprint Library:Conn_Debug_1x02_P2.54mm"
 			(at -0.254 6.096 0)
 			(effects
 				(font

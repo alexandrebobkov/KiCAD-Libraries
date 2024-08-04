@@ -2297,9 +2297,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "DBG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2315,16 +2315,16 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_2"
+				(name "DBG"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
