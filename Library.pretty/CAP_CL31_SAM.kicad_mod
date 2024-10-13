@@ -308,7 +308,7 @@
 			)
 		)
 	)
-	(model "C:/Users/alex/github/KiCAD-Libraries/2024-10-12_22-00-58.kicad_sym"
+	(model "C:/Users/alex/github/KiCAD-Libraries/C1206C104K5RAC7210.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -316,7 +316,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
