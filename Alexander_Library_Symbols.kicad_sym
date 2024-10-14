@@ -459,7 +459,7 @@
 		)
 		(symbol "Arduino_Uno_X_Shield_1_1"
 			(pin power_out line
-				(at -25.4 -19.05 0)
+				(at -25.4 -20.32 0)
 				(length 7.62)
 				(name "3.3V"
 					(effects
@@ -477,7 +477,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 -16.51 0)
+				(at -25.4 -17.78 0)
 				(length 7.62)
 				(name "5V"
 					(effects
@@ -486,7 +486,7 @@
 						)
 					)
 				)
-				(number "5V1"
+				(number "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1053,7 +1053,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -21.59 0)
+				(at -25.4 -24.13 0)
 				(length 7.62)
 				(name "GNDA"
 					(effects
@@ -1071,25 +1071,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -21.59 0)
-				(length 7.62) hide
-				(name "GNDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 -21.59 0)
+				(at -25.4 -24.13 0)
 				(length 7.62) hide
 				(name "GNDA"
 					(effects
@@ -1108,6 +1090,24 @@
 			)
 			(pin power_in line
 				(at -25.4 -24.13 0)
+				(length 7.62) hide
+				(name "GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -26.67 0)
 				(length 7.62)
 				(name "GNDB"
 					(effects
@@ -1125,7 +1125,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -24.13 0)
+				(at -25.4 -26.67 0)
 				(length 7.62) hide
 				(name "GNDB"
 					(effects
