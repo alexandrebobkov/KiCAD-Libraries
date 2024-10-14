@@ -477,8 +477,44 @@
 				)
 			)
 			(pin power_out line
+				(at -25.4 -20.32 0)
+				(length 7.62) hide
+				(name "3.3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
 				(at -25.4 -17.78 0)
 				(length 7.62)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25.4 -17.78 0)
+				(length 7.62) hide
 				(name "5V"
 					(effects
 						(font
