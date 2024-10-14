@@ -1055,7 +1055,7 @@
 			(pin power_in line
 				(at -25.4 -21.59 0)
 				(length 7.62)
-				(name "GND"
+				(name "GND-A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1071,16 +1071,16 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -24.13 0)
-				(length 7.62)
-				(name "GND"
+				(at -25.4 -21.59 0)
+				(length 7.62) hide
+				(name "GND-A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND2"
+				(number "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1089,16 +1089,16 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -26.67 0)
-				(length 7.62)
-				(name "GND"
+				(at -25.4 -21.59 0)
+				(length 7.62) hide
+				(name "GND-A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND3"
+				(number "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
