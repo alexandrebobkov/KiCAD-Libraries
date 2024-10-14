@@ -486,7 +486,7 @@
 						)
 					)
 				)
-				(number "5V1"
+				(number "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
