@@ -1055,7 +1055,7 @@
 			(pin power_in line
 				(at -25.4 -21.59 0)
 				(length 7.62)
-				(name "GND-A"
+				(name "GNDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 			(pin power_in line
 				(at -25.4 -21.59 0)
 				(length 7.62) hide
-				(name "GND-A"
+				(name "GNDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1091,7 +1091,7 @@
 			(pin power_in line
 				(at -25.4 -21.59 0)
 				(length 7.62) hide
-				(name "GND-A"
+				(name "GNDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1099,6 +1099,42 @@
 					)
 				)
 				(number "GND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -24.13 0)
+				(length 7.62)
+				(name "GNDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 -24.13 0)
+				(length 7.62) hide
+				(name "GNDB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND2"
 					(effects
 						(font
 							(size 1.27 1.27)
