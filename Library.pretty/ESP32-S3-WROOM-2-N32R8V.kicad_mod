@@ -798,7 +798,7 @@
 			)
 		)
 	)
-	(model "C:/Users/alex/github/KiCAD-Libraries/ESP32-S3-WROOM-2-N32R8V.step"
+	(model "/home/alex/Development/KiCAD-Libraries/ESP32-S3-WROOM-1-N8R2.step"
 		(offset
 			(xyz 0 0 0)
 		)

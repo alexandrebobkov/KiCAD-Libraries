@@ -752,7 +752,7 @@
 		(remove_unused_layers no)
 		(uuid "c765cf79-077b-4387-a829-54be0fb67b56")
 	)
-	(pad "5V1" thru_hole oval
+	(pad "5V" thru_hole oval
 		(at 38.1 -5.08)
 		(size 1.7272 1.7272)
 		(drill 1.016)
@@ -760,7 +760,7 @@
 		(remove_unused_layers no)
 		(uuid "6d2ded80-1c28-4fcf-bda5-d46bc5df96b2")
 	)
-	(pad "5V1" thru_hole oval
+	(pad "5V" thru_hole oval
 		(at 38.1 -2.54)
 		(size 1.7272 1.7272)
 		(drill 1.016)
@@ -1032,6 +1032,22 @@
 		(remove_unused_layers no)
 		(uuid "d1ebe009-a571-4147-90df-eb9590bb1afa")
 	)
+	(pad "GND1" thru_hole rect
+		(at 40.64 -2.54)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23a4ad9d-2744-4157-b5d3-0d777373cb9d")
+	)
+	(pad "GND1" thru_hole rect
+		(at 43.18 -2.54)
+		(size 1.7272 1.7272)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5230ac31-c14b-40d2-b7df-42fbc1d54790")
+	)
 	(pad "GND2" thru_hole rect
 		(at 40.64 -5.08)
 		(size 1.7272 1.7272)
@@ -1041,28 +1057,12 @@
 		(uuid "e0e91d9b-33e5-4dce-ab51-381bd54914b0")
 	)
 	(pad "GND2" thru_hole rect
-		(at 40.64 -2.54)
-		(size 1.7272 1.7272)
-		(drill 1.016)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "23a4ad9d-2744-4157-b5d3-0d777373cb9d")
-	)
-	(pad "GND3" thru_hole rect
 		(at 43.18 -5.08)
 		(size 1.7272 1.7272)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "22beaef9-c1cf-4a24-8764-1dfa77cb28ab")
-	)
-	(pad "GND3" thru_hole rect
-		(at 43.18 -2.54)
-		(size 1.7272 1.7272)
-		(drill 1.016)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5230ac31-c14b-40d2-b7df-42fbc1d54790")
 	)
 	(pad "IORF" thru_hole oval
 		(at 30.48 -2.54)

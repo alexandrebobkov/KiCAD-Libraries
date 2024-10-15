@@ -686,7 +686,7 @@
 		(remove_unused_layers no)
 		(uuid "3e93888a-c003-4356-a1ce-b22178bdcdd6")
 	)
-	(model "C:/Users/alex/github/KiCAD-Libraries/USB4085-GF-A_REVB.step"
+	(model "/home/alex/Development/KiCAD-Libraries/USB4085-GF-A_REVB.step"
 		(offset
 			(xyz 3.05 -4.05 0)
 		)
