@@ -2815,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Raspberry Pi Zero 2 W"
 			(at 0 0 0)
 			(effects
 				(font
