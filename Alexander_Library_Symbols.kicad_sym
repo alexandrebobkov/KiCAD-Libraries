@@ -2815,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles"
+		(property "Footprint" "Alexander Footprint Library:RaspberryPiZero2W"
 			(at 0.762 15.748 0)
 			(effects
 				(font
@@ -3519,8 +3519,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 1)
+					(type background)
 				)
 			)
 		)

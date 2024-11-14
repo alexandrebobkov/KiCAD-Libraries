@@ -2834,7 +2834,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi Zero 2 W"
-			(at 0.254 12.192 0)
+			(at 5.334 -32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,8 +3519,7 @@
 					(type default)
 				)
 				(fill
-					(type color)
-					(color 255 255 194 1)
+					(type background)
 				)
 			)
 		)
