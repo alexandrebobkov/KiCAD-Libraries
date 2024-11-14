@@ -2799,7 +2799,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RaspberryPi-Zero2W"
-			(at 0 0 0)
+			(at 0 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Footprint" "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles"
-			(at 0 0 0)
+			(at 0.762 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2834,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi Zero 2 W"
-			(at 0 0 0)
+			(at 0.254 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 		)
 		(symbol "BRD_RPI-Zero-2W_0_0"
 			(pin power_in line
-				(at -5.08 10.16 270)
+				(at 2.54 0 270)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -2862,7 +2862,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 17.78 -30.48 180)
+				(length 2.54)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -35.56 180)
 				(length 2.54)
 				(name "GPIO17"
 					(effects
@@ -2880,7 +2898,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 180)
+				(at 17.78 -38.1 180)
+				(length 2.54)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -60.96 180)
 				(length 2.54)
 				(name "GPIO27"
 					(effects
@@ -2898,8 +2934,8 @@
 				)
 			)
 			(pin power_out line
-				(at -24.13 -36.83 90)
-				(length 2.54)
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -2916,7 +2952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 17.78 -48.26 180)
 				(length 2.54)
 				(name "GPIO22"
 					(effects
@@ -2934,7 +2970,43 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -15.24 0)
+				(at 17.78 -50.8 180)
+				(length 2.54)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -53.34 180)
+				(length 2.54)
+				(name "GPIO24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -17.78 0)
 				(length 2.54)
 				(name "MOSI"
 					(effects
@@ -2952,7 +3024,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 10.16 270)
+				(at 5.08 0 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -2970,8 +3042,8 @@
 				)
 			)
 			(pin power_out line
-				(at -16.51 -36.83 90)
-				(length 2.54)
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -2988,7 +3060,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -17.78 0)
+				(at -7.62 -20.32 0)
 				(length 2.54)
 				(name "MISO"
 					(effects
@@ -3006,7 +3078,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -20.32 0)
+				(at 17.78 -55.88 180)
+				(length 2.54)
+				(name "GPIO25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -22.86 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -3023,9 +3113,27 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -29.21 -36.83 90)
+			(pin bidirectional line
+				(at 17.78 -20.32 180)
 				(length 2.54)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -3042,7 +3150,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -52.07 180)
+				(at 17.78 -17.78 180)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -27.94 0)
 				(length 2.54)
 				(name "EEPROM"
 					(effects
@@ -3060,7 +3186,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 17.78 -12.7 180)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -3078,7 +3204,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -7.62 0)
+				(at -7.62 -10.16 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -3096,8 +3222,8 @@
 				)
 			)
 			(pin power_out line
-				(at -21.59 -36.83 90)
-				(length 2.54)
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -3114,7 +3240,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -22.86 180)
+				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -3124,6 +3250,24 @@
 					)
 				)
 				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -22.86 180)
+				(length 2.54)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3150,8 +3294,8 @@
 				)
 			)
 			(pin power_out line
-				(at -19.05 -36.83 90)
-				(length 2.54)
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -3168,7 +3312,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -27.94 180)
+				(at 17.78 -40.64 180)
 				(length 2.54)
 				(name "GPIO19"
 					(effects
@@ -3186,7 +3330,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -30.48 180)
+				(at 17.78 -33.02 180)
+				(length 2.54)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -58.42 180)
 				(length 2.54)
 				(name "GPIO26"
 					(effects
@@ -3203,9 +3365,27 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -26.67 -36.83 90)
+			(pin bidirectional line
+				(at 17.78 -43.18 180)
 				(length 2.54)
+				(name "GPIO20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -68.58 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -3222,7 +3402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 10.16 270)
+				(at 7.62 0 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -3240,7 +3420,25 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -10.16 0)
+				(at 17.78 -45.72 180)
+				(length 2.54)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -12.7 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -3276,7 +3474,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -33.02 180)
+				(at 17.78 -27.94 180)
 				(length 2.54)
 				(name "GPIO14"
 					(effects
@@ -3294,7 +3492,7 @@
 				)
 			)
 			(pin power_out line
-				(at -31.75 -36.83 90)
+				(at 5.08 -68.58 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3315,7 +3513,7 @@
 		(symbol "BRD_RPI-Zero-2W_0_1"
 			(rectangle
 				(start -5.08 -2.54)
-				(end 5.334 -25.4)
+				(end 15.24 -66.04)
 				(stroke
 					(width 0)
 					(type default)
