@@ -1,0 +1,168 @@
+(footprint "RaspberryPiZero2W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Raspberry Pi Zero 2 W")
+	(tags "Raspberry Pi Zero")
+	(property "Reference" "BRD**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d02bdbe-a52f-4a30-ba62-d0f81ea1f371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RaspberryPi Zero 2 W"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca5c8f50-e350-40ef-8927-9284894b7f5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ede8fafe-68a3-4b46-9522-ff7c03865b8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e64d0d3c-20e2-49c4-8a4a-c84e2c1ee471")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Raspberry Pi Zero 2 W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abb47f31-f717-43ed-810e-fee13602f17b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 31.5)
+		(end 0 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1584b674-de36-451e-87da-79e3af8e8ee9")
+	)
+	(fp_line
+		(start 3.5 0)
+		(end 56.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "59d13493-af19-43a6-89a7-85178a2dd8d4")
+	)
+	(fp_line
+		(start 56.5 35)
+		(end 3.5 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd50861d-9468-45ae-86b5-c72e429f62ba")
+	)
+	(fp_line
+		(start 60 3.5)
+		(end 60 31.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ba8bfdd3-127b-49ff-9f32-2d085d2deb16")
+	)
+	(fp_arc
+		(start 0 3.5)
+		(mid 1.025126 1.025126)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ceceb950-87b3-4706-8fb3-816d37a65951")
+	)
+	(fp_arc
+		(start 3.5 35)
+		(mid 1.025126 33.974874)
+		(end 0 31.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b6efd04d-f478-4513-a34c-1622443bea4c")
+	)
+	(fp_arc
+		(start 56.5 0)
+		(mid 58.974874 1.025126)
+		(end 60 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f97e696-df32-44ca-9431-ccc570b19584")
+	)
+	(fp_arc
+		(start 60 31.5)
+		(mid 58.974874 33.974874)
+		(end 56.5 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "38848199-7748-461c-ad0e-68af720f6e25")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6774ec77-90cc-4f8c-95f1-70a27e8b1629")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
