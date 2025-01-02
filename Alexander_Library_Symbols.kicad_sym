@@ -7411,8 +7411,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 125.73 -20.32 180)
-				(length 7.62)
+				(at 123.19 -20.32 180)
+				(length 5.08)
 				(name "GPIO4_ADC1_CH4"
 					(effects
 						(font
