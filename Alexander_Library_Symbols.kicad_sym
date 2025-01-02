@@ -6921,7 +6921,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "BRD"
-			(at 0 0 0)
+			(at 0 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6929,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3 Breadboard Adapter"
-			(at 0.762 -4.572 0)
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
