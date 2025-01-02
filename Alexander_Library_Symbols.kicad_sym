@@ -7483,7 +7483,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -24.13 0)
+				(at 116.84 -24.13 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -7555,7 +7555,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -29.21 0)
+				(at 116.84 -29.21 180)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
