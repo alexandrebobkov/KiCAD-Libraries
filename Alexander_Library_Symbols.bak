@@ -7216,6 +7216,16 @@
 			)
 		)
 		(symbol "ESP32-C3-Breadboard-USB-C_1_0"
+			(text "ESP32-C3 Breadboard Adapter"
+				(at 95.758 -39.878 900)
+				(effects
+					(font
+						(size 1.778 1.778)
+						(bold yes)
+						(italic yes)
+					)
+				)
+			)
 			(text "GPIO"
 				(at 100.33 -25.654 900)
 				(effects
