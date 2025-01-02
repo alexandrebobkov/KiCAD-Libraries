@@ -7117,8 +7117,8 @@
 				)
 			)
 			(rectangle
-				(start 83.82 -68.58)
-				(end 90.17 -68.58)
+				(start 83.82 -74.93)
+				(end 90.17 -74.93)
 				(stroke
 					(width 0)
 					(type default)
@@ -8166,45 +8166,9 @@
 				)
 			)
 			(pin power_in line
-				(at 69.85 -72.39 0)
+				(at 76.2 -82.55 0)
 				(length 7.62)
-				(name "GNDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 69.85 -72.39 0)
-				(length 7.62) hide
-				(name "GNDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 69.85 -72.39 0)
-				(length 7.62) hide
-				(name "GNDA"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
