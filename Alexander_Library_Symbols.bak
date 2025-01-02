@@ -7339,8 +7339,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 -39.37 0)
-				(length 7.62)
+				(at 124.46 -27.94 180)
+				(length 5.08)
 				(name "GPIO3_ADC1_CH3"
 					(effects
 						(font
@@ -7357,8 +7357,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 -36.83 0)
-				(length 7.62)
+				(at 124.46 -25.4 180)
+				(length 5.08)
 				(name "GPIO2_ADC1_CH2"
 					(effects
 						(font
@@ -7375,8 +7375,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 -34.29 0)
-				(length 7.62)
+				(at 124.46 -22.86 180)
+				(length 5.08)
 				(name "GPIO1_ADC1_CH1"
 					(effects
 						(font
@@ -7393,8 +7393,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 -31.75 0)
-				(length 7.62)
+				(at 124.46 -20.32 180)
+				(length 5.08)
 				(name "GPIO0_ADC1_CH0"
 					(effects
 						(font
@@ -7411,7 +7411,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 123.19 -20.32 180)
+				(at 124.46 -30.48 180)
 				(length 5.08)
 				(name "GPIO4_ADC1_CH4"
 					(effects
@@ -7429,8 +7429,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 54.61 -44.45 0)
-				(length 7.62)
+				(at 124.46 -17.78 180)
+				(length 5.08)
 				(name "GPIO5_ADC2_CH0"
 					(effects
 						(font
@@ -7483,8 +7483,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -24.13 180)
-				(length 2.54)
+				(at 124.46 -33.02 180)
+				(length 5.08)
 				(name "GPIO6"
 					(effects
 						(font
@@ -7555,8 +7555,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -29.21 180)
-				(length 2.54)
+				(at 124.46 -35.56 180)
+				(length 5.08)
 				(name "GPIO7"
 					(effects
 						(font
@@ -7573,8 +7573,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -36.83 180)
-				(length 2.54)
+				(at 124.46 -38.1 180)
+				(length 5.08)
 				(name "GPIO10"
 					(effects
 						(font
