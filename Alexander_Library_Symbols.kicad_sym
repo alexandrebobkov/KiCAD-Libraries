@@ -7596,7 +7596,7 @@
 			)
 			(pin power_out line
 				(at 69.85 -72.39 0)
-				(length 2.54)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font

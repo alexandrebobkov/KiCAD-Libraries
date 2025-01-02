@@ -7307,7 +7307,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -43.18 0)
+				(at 54.61 -38.1 0)
 				(length 7.62)
 				(name "GPIO3_ADC1_CH3"
 					(effects
@@ -7325,7 +7325,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -40.64 0)
+				(at 54.61 -35.56 0)
 				(length 7.62)
 				(name "GPIO2_ADC1_CH2"
 					(effects
@@ -7343,7 +7343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -38.1 0)
+				(at 54.61 -33.02 0)
 				(length 7.62)
 				(name "GPIO1_ADC1_CH1"
 					(effects
@@ -7361,7 +7361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -35.56 0)
+				(at 54.61 -30.48 0)
 				(length 7.62)
 				(name "GPIO0_ADC1_CH0"
 					(effects
