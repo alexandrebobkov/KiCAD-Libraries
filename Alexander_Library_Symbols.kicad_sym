@@ -6975,19 +6975,7 @@
 		(symbol "ESP32-C3-Breadboard-USB-C_0_0"
 			(polyline
 				(pts
-					(xy 87.63 -44.45) (xy 88.9 -44.45)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 87.63 -36.83) (xy 88.9 -36.83)
+					(xy 87.63 -38.1) (xy 88.9 -38.1)
 				)
 				(stroke
 					(width 0)
@@ -7000,6 +6988,18 @@
 			(polyline
 				(pts
 					(xy 87.63 -30.48) (xy 88.9 -30.48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 87.63 -24.13) (xy 88.9 -24.13)
 				)
 				(stroke
 					(width 0)
@@ -7071,7 +7071,7 @@
 			)
 			(polyline
 				(pts
-					(xy 80.01 -43.18) (xy 87.63 -43.18) (xy 87.63 -45.72) (xy 80.01 -45.72)
+					(xy 80.01 -36.83) (xy 87.63 -36.83) (xy 87.63 -39.37) (xy 80.01 -39.37)
 				)
 				(stroke
 					(width 0)
@@ -7083,7 +7083,7 @@
 			)
 			(polyline
 				(pts
-					(xy 80.01 -29.21) (xy 87.63 -29.21) (xy 87.63 -31.75) (xy 80.01 -31.75)
+					(xy 80.01 -22.86) (xy 87.63 -22.86) (xy 87.63 -25.4) (xy 80.01 -25.4)
 				)
 				(stroke
 					(width 0)
@@ -7095,7 +7095,7 @@
 			)
 			(polyline
 				(pts
-					(xy 83.82 -35.56) (xy 87.63 -35.56) (xy 87.63 -38.1) (xy 83.82 -38.1)
+					(xy 83.82 -29.21) (xy 87.63 -29.21) (xy 87.63 -31.75) (xy 83.82 -31.75)
 				)
 				(stroke
 					(width 0)
@@ -7128,8 +7128,8 @@
 				)
 			)
 			(rectangle
-				(start 86.614 -17.78)
-				(end 87.884 -17.78)
+				(start 86.36 -17.78)
+				(end 87.63 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -7139,8 +7139,8 @@
 				)
 			)
 			(rectangle
-				(start 86.614 -15.24)
-				(end 87.884 -15.24)
+				(start 86.36 -15.24)
+				(end 87.63 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -7150,8 +7150,8 @@
 				)
 			)
 			(rectangle
-				(start 87.884 -16.51)
-				(end 90.424 -16.51)
+				(start 87.63 -16.51)
+				(end 90.17 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -7161,8 +7161,8 @@
 				)
 			)
 			(rectangle
-				(start 87.884 -15.24)
-				(end 87.884 -17.78)
+				(start 87.63 -15.24)
+				(end 87.63 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -7183,7 +7183,7 @@
 				)
 			)
 			(text "I²C"
-				(at 90.932 -30.734 900)
+				(at 90.932 -24.384 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7191,7 +7191,7 @@
 				)
 			)
 			(text "Misc."
-				(at 91.44 -16.256 900)
+				(at 91.186 -16.256 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7207,7 +7207,7 @@
 				)
 			)
 			(text "Serial"
-				(at 91.186 -44.704 900)
+				(at 91.186 -38.354 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7225,7 +7225,7 @@
 				)
 			)
 			(text "USB"
-				(at 91.186 -36.83 900)
+				(at 91.186 -30.48 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7253,7 +7253,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -45.72 0)
+				(at 59.69 -39.37 0)
 				(length 7.62)
 				(name "GPIO20_RX"
 					(effects
@@ -7271,7 +7271,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -35.56 0)
+				(at 59.69 -29.21 0)
 				(length 7.62)
 				(name "GPIO18_USB_D-"
 					(effects
@@ -7289,7 +7289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -43.18 0)
+				(at 59.69 -36.83 0)
 				(length 7.62)
 				(name "GPIO21_TX"
 					(effects
@@ -7469,7 +7469,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -31.75 0)
+				(at 59.69 -25.4 0)
 				(length 7.62)
 				(name "GPIO8_SDA"
 					(effects
@@ -7559,7 +7559,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -29.21 0)
+				(at 59.69 -22.86 0)
 				(length 7.62)
 				(name "GPIO9_SCL"
 					(effects
@@ -7577,7 +7577,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -38.1 0)
+				(at 59.69 -31.75 0)
 				(length 7.62)
 				(name "GPIO19_USB_D+"
 					(effects
