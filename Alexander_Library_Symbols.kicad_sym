@@ -7379,8 +7379,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -19.05 0)
-				(length 2.54)
+				(at 54.61 -40.64 0)
+				(length 7.62)
 				(name "GPIO4_ADC1_CH4"
 					(effects
 						(font
@@ -7397,8 +7397,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 116.84 -21.59 0)
-				(length 2.54)
+				(at 54.61 -43.18 0)
+				(length 7.62)
 				(name "GPIO5_ADC2_CH0"
 					(effects
 						(font
