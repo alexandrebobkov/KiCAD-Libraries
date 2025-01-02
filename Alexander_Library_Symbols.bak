@@ -6999,7 +6999,7 @@
 			)
 			(polyline
 				(pts
-					(xy 90.17 -68.58) (xy 90.17 -66.04)
+					(xy 90.17 -74.93) (xy 90.17 -72.39)
 				)
 				(stroke
 					(width 0)
@@ -7207,7 +7207,7 @@
 				)
 			)
 			(text "Power"
-				(at 90.17 -62.23 900)
+				(at 89.916 -65.278 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -8166,7 +8166,7 @@
 				)
 			)
 			(pin power_in line
-				(at 76.2 -82.55 0)
+				(at 69.85 -72.39 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -8186,25 +8186,7 @@
 			(pin power_in line
 				(at 69.85 -74.93 0)
 				(length 7.62)
-				(name "GNDB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 69.85 -74.93 0)
-				(length 7.62) hide
-				(name "GNDB"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
