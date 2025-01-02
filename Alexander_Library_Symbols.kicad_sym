@@ -6975,7 +6975,7 @@
 		(symbol "ESP32-C3-Breadboard-USB-C_0_0"
 			(polyline
 				(pts
-					(xy 83.82 -24.13) (xy 87.63 -24.13)
+					(xy 50.8 -5.08) (xy 54.61 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -6987,7 +6987,7 @@
 			)
 			(polyline
 				(pts
-					(xy 87.63 -16.51) (xy 88.9 -16.51)
+					(xy 87.63 -17.78) (xy 88.9 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -7083,7 +7083,7 @@
 			)
 			(polyline
 				(pts
-					(xy 82.55 -22.86) (xy 83.82 -22.86) (xy 83.82 -25.4) (xy 82.55 -25.4)
+					(xy 49.53 -3.81) (xy 50.8 -3.81) (xy 50.8 -6.35) (xy 49.53 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -7095,7 +7095,7 @@
 			)
 			(polyline
 				(pts
-					(xy 85.09 -15.24) (xy 87.63 -15.24) (xy 87.63 -17.78) (xy 85.09 -17.78)
+					(xy 85.09 -16.51) (xy 87.63 -16.51) (xy 87.63 -19.05) (xy 85.09 -19.05)
 				)
 				(stroke
 					(width 0)
@@ -7191,7 +7191,7 @@
 				)
 			)
 			(text "I²C"
-				(at 90.17 -24.13 900)
+				(at 57.15 -5.08 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7215,7 +7215,7 @@
 				)
 			)
 			(text "Serial"
-				(at 90.17 -16.51 900)
+				(at 90.17 -17.78 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7253,7 +7253,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 66.04 -17.78 0)
+				(at 69.85 -19.05 0)
 				(length 2.54)
 				(name "GPIO20_RX"
 					(effects
@@ -7289,7 +7289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 66.04 -15.24 0)
+				(at 69.85 -16.51 0)
 				(length 2.54)
 				(name "GPIO21_TX"
 					(effects
