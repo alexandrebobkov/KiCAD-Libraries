@@ -6936,7 +6936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
+		(property "Footprint" "Alexander Footprint Library:ESP32-C3_Breadboard-Adapter"
 			(at -13.716 3.048 0)
 			(effects
 				(font
