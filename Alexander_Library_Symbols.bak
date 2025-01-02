@@ -7106,7 +7106,7 @@
 				)
 			)
 			(rectangle
-				(start 69.85 -62.23)
+				(start 74.93 -62.23)
 				(end 87.63 -62.23)
 				(stroke
 					(width 0)
@@ -7117,7 +7117,7 @@
 				)
 			)
 			(rectangle
-				(start 69.85 -45.72)
+				(start 74.93 -45.72)
 				(end 87.63 -45.72)
 				(stroke
 					(width 0)
@@ -7125,6 +7125,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start 82.55 -10.16)
+				(end 140.97 -66.04)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(rectangle
@@ -7169,17 +7180,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 167.64 -40.64)
-				(end 203.2 -115.57)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(text "I²C"
@@ -7253,8 +7253,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -39.37 0)
-				(length 7.62)
+				(at 62.23 -39.37 0)
+				(length 5.08)
 				(name "GPIO20_RX"
 					(effects
 						(font
@@ -7289,8 +7289,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 59.69 -36.83 0)
-				(length 7.62)
+				(at 62.23 -36.83 0)
+				(length 5.08)
 				(name "GPIO21_TX"
 					(effects
 						(font
