@@ -7271,7 +7271,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -7.62 180)
+				(at 60.96 -7.62 0)
 				(length 2.54)
 				(name "GPIO18_USB_D-"
 					(effects
@@ -7577,7 +7577,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 115.57 -8.89 180)
+				(at 115.57 -8.89 0)
 				(length 2.54)
 				(name "GPIO19_USB_D+"
 					(effects
