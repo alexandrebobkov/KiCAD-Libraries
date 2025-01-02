@@ -7239,7 +7239,7 @@
 				)
 			)
 			(text "Serial"
-				(at 85.09 -22.86 900)
+				(at 86.106 -23.114 900)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -7250,6 +7250,14 @@
 		(symbol "ESP32-C3-Breadboard-USB-C_1_0"
 			(text "GPIO"
 				(at 100.33 -42.418 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(text "USB"
+				(at 86.106 -15.24 900)
 				(effects
 					(font
 						(size 1.524 1.524)
