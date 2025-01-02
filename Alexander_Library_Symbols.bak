@@ -7235,8 +7235,8 @@
 		)
 		(symbol "ESP32-C3-Breadboard-USB-C_1_1"
 			(pin input line
-				(at 69.85 -50.8 0)
-				(length 2.54)
+				(at 64.77 -50.8 0)
+				(length 7.62)
 				(name "EN"
 					(effects
 						(font
@@ -7253,8 +7253,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -19.05 0)
-				(length 2.54)
+				(at 64.77 -19.05 0)
+				(length 7.62)
 				(name "GPIO20_RX"
 					(effects
 						(font
@@ -7289,8 +7289,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 69.85 -16.51 0)
-				(length 2.54)
+				(at 64.77 -16.51 0)
+				(length 7.62)
 				(name "GPIO21_TX"
 					(effects
 						(font
