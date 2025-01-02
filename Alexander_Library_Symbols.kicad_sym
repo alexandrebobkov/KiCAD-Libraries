@@ -7253,7 +7253,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 66.04 -25.4 0)
+				(at 66.04 -17.78 0)
 				(length 2.54)
 				(name "GPIO20_RX"
 					(effects
@@ -7289,7 +7289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 66.04 -22.86 0)
+				(at 66.04 -15.24 0)
 				(length 2.54)
 				(name "GPIO21_TX"
 					(effects
