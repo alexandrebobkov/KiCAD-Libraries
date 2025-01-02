@@ -6987,6 +6987,18 @@
 			)
 			(polyline
 				(pts
+					(xy 82.55 -15.24) (xy 83.82 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 82.55 -8.89) (xy 83.82 -8.89)
 				)
 				(stroke
@@ -7096,6 +7108,18 @@
 			(polyline
 				(pts
 					(xy 74.93 -7.62) (xy 82.55 -7.62) (xy 82.55 -10.16) (xy 74.93 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 78.74 -13.97) (xy 82.55 -13.97) (xy 82.55 -16.51) (xy 78.74 -16.51)
 				)
 				(stroke
 					(width 0)
