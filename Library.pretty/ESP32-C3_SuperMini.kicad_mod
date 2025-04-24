@@ -1,7 +1,7 @@
 (footprint "ESP32-C3_SuperMini"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ESP32 C3 Super Mini")
 	(tags "ESP32 C3")
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b699cd6c-c89b-47f3-ace3-24c02047a611")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f412b33-4d27-4658-9f7e-6d4eb7572bd6")
 		(effects
 			(font
 				(size 1 1)
@@ -212,4 +199,5 @@
 		(remove_unused_layers no)
 		(uuid "fb09284c-c15b-4c1b-87e3-a063b223dfc3")
 	)
+	(embedded_fonts no)
 )
