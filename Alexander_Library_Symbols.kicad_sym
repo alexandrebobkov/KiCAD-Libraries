@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.874 -1.524 0)
+			(at 3.556 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,6 +59,14 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(text "A3909"
+				(at 4.826 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(pin input line
