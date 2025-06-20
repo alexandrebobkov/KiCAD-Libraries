@@ -54,6 +54,46 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -25.4 -8.89)
+		(end -25.4 -49.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "027e9c19-c86a-4da0-9619-8f624c1c952b")
+	)
+	(fp_line
+		(start -25.4 -8.89)
+		(end 25.4 -8.89)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5660d106-6146-4fb8-beaa-4261ac47382e")
+	)
+	(fp_line
+		(start 25.4 -49.53)
+		(end -25.4 -49.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e27ef465-698b-4c54-a410-83e67cb113de")
+	)
+	(fp_line
+		(start 25.4 -8.89)
+		(end 25.4 -49.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc9f2837-39ee-41db-adfd-3d3359db100d")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -8.8 -28.9 0)
 		(unlocked yes)
