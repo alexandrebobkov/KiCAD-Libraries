@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Breadboard Adapter")
+	(tags "breadboard")
 	(property "Reference" "REF**"
 		(at 0 -5.08 0)
 		(unlocked yes)
@@ -40,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Breadboard Adapter"
 		(at -8.8 18.13 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +55,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom)
 	(fp_line
 		(start -26.035 38.1)
 		(end -26.035 2.54)
