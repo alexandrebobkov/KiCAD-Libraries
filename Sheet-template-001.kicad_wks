@@ -164,19 +164,21 @@
 			(size 1.651 1.651) bold)
 		(comment "Comment 0")
 	)
-	(tbtext "${COMMENT2}"
+	(tbtext "Teacher: ${COMMENT2}"
 		(name "")
-		(pos 105.225 48.25)
+		(pos 3.925 10.525)
+		(justify right)
 		(comment "Comment 1")
 	)
-	(tbtext "${COMMENT3}"
+	(tbtext "Course: ${COMMENT3}"
 		(name "")
-		(pos 105.225 51.25)
+		(pos 109.625 16.75)
+		(font bold)
 		(comment "Comment 2")
 	)
 	(tbtext "${COMMENT4}"
 		(name "")
-		(pos 105.225 54.25)
+		(pos 99.925 14.15)
 		(comment "Comment 3")
 	)
 	(line
