@@ -1,0 +1,94 @@
+(footprint "Breadboard_PowerRails"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15 -16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9b153a9-9adf-4fdb-848f-8e50d940f87d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Breadboard_PowerRails"
+		(at 15 -14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84fb29ef-1a82-412e-9c79-0d47a353761e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 15 -15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a5c48b7-fb69-49fd-9c12-0b6f09134892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 15 -15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5829c315-1ec2-42ce-83fa-59f7248b5ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 15 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c788755-abac-4382-a274-644026ca2d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "DCC" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa02bb0a-1858-483d-a095-6c4187f87b77")
+	)
+	(pad "DCC" thru_hole circle
+		(at 47.6 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07b36d8a-017e-4c6f-853a-b59b0cd0cb12")
+	)
+	(pad "GND" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ac65591d-e3b1-49ae-a10e-b4de36c30329")
+	)
+	(embedded_fonts no)
+)
