@@ -138,32 +138,6 @@
 		(layer "Edge.Cuts")
 		(uuid "4ffef59c-348b-40f3-bf19-ca0efac8e34c")
 	)
-	(fp_text user "10"
-		(at -6.35 34.29 90)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "7417d2da-d36b-4710-9f35-d40e7dd42345")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-		)
-	)
-	(fp_text user "EN"
-		(at -21.59 34.29 90)
-		(unlocked yes)
-		(layer "F.SilkS" knockout)
-		(uuid "fedb4a7a-9c32-4d66-83c5-70bd8f296585")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.27 0)
 		(unlocked yes)
