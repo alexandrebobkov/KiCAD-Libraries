@@ -90,5 +90,13 @@
 		(remove_unused_layers no)
 		(uuid "ac65591d-e3b1-49ae-a10e-b4de36c30329")
 	)
+	(pad "GND" thru_hole circle
+		(at 45.06 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34b8a6e2-c7ff-43b1-ae2d-f44852f6b360")
+	)
 	(embedded_fonts no)
 )
