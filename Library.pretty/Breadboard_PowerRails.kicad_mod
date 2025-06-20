@@ -130,5 +130,13 @@
 		(remove_unused_layers no)
 		(uuid "6fd08041-abd5-493f-9cd6-2d5c6035753c")
 	)
+	(group ""
+		(uuid "2ad632c7-a995-4d86-be02-94ff65fc435c")
+		(members "07b36d8a-017e-4c6f-853a-b59b0cd0cb12" "2c5a90bb-6cd9-48b6-9a17-9aa2bbed936b"
+			"34b8a6e2-c7ff-43b1-ae2d-f44852f6b360" "6fd08041-abd5-493f-9cd6-2d5c6035753c"
+			"aa02bb0a-1858-483d-a095-6c4187f87b77" "ac65591d-e3b1-49ae-a10e-b4de36c30329"
+			"c19e38e5-81f4-4742-bf4b-325523ec2184" "e200e66d-ec9b-41ec-8ee4-4aebd6d92e5f"
+		)
+	)
 	(embedded_fonts no)
 )
