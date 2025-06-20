@@ -155,9 +155,11 @@
 		(font bold)
 		(comment "Company name")
 	)
-	(tbtext "${COMMENT1}"
+	(tbtext "By: ${COMMENT1}"
 		(name "")
-		(pos 105.225 45.25)
+		(pos 109.2 10.5)
+		(font
+			(size 1.651 1.651) bold)
 		(comment "Comment 0")
 	)
 	(tbtext "${COMMENT2}"
