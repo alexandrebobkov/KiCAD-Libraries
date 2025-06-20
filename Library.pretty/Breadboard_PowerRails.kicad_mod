@@ -500,14 +500,14 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 1)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "26.035"
-			(at 13.0175 64.255 0)
+			(at 13.0175 65.405 0)
 			(layer "Cmts.User")
 			(uuid "8b2e7099-378f-4762-b040-611e14f698a3")
 			(effects
@@ -532,20 +532,20 @@
 			(suffix "")
 			(units 3)
 			(units_format 0)
-			(precision 4)
+			(precision 3)
 			(suppress_zeroes yes)
 		)
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 1)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
 		(gr_text "26.035"
-			(at -13.0175 64.255 0)
+			(at -13.0175 65.405 0)
 			(layer "Cmts.User")
 			(uuid "9a104de5-324a-4e3c-b133-372b0efeee75")
 			(effects
