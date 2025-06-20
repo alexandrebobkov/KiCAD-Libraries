@@ -138,7 +138,8 @@
 	)
 	(tbtext "File: ${FILENAME}"
 		(name "")
-		(pos 109 14.3)
+		(pos 4.25 14.15)
+		(justify right)
 	)
 	(line
 		(name "")
@@ -147,7 +148,8 @@
 	)
 	(tbtext "Sheet: ${SHEETPATH}"
 		(name "")
-		(pos 109 17)
+		(pos 4.25 16.85)
+		(justify right)
 	)
 	(tbtext "${COMPANY}"
 		(name "")
