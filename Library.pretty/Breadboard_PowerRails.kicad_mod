@@ -293,6 +293,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "Cmts.User")
+		(uuid "10e10f7a-3d18-4464-b189-cd3c3d904e9a")
+		(pts
+			(xy 21.26 29.845) (xy 23.8 29.845)
+		)
+		(height 4.445)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.54"
+			(at 22.53 33.14 0)
+			(layer "Cmts.User")
+			(uuid "10e10f7a-3d18-4464-b189-cd3c3d904e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
 		(uuid "25f940e1-a67a-4e0f-bc5a-789bf8ad650c")
 		(pts
 			(xy -23.8 29.845) (xy 0 53.645)
@@ -434,6 +472,82 @@
 			(at -12.535 49.65 0)
 			(layer "Cmts.User")
 			(uuid "be040248-9d7a-4244-a962-1d4c76b79399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "bf821122-4828-447e-9ea9-943ead439661")
+		(pts
+			(xy 23.8 29.845) (xy 23.8 19.685)
+		)
+		(height 10.49)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.16"
+			(at 33.14 24.765 90)
+			(layer "Cmts.User")
+			(uuid "bf821122-4828-447e-9ea9-943ead439661")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "d9611874-58c4-4556-98e0-f9ec84e87ad5")
+		(pts
+			(xy -21.59 37.465) (xy -1.27 37.465)
+		)
+		(height 10.16)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "20.32"
+			(at -11.43 46.475 0)
+			(layer "Cmts.User")
+			(uuid "d9611874-58c4-4556-98e0-f9ec84e87ad5")
 			(effects
 				(font
 					(size 1 1)
