@@ -145,8 +145,8 @@
 		(uuid "fedb4a7a-9c32-4d66-83c5-70bd8f296585")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.25)
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 		)
