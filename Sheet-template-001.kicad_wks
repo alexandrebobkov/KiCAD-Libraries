@@ -151,8 +151,8 @@
 	)
 	(tbtext "${COMPANY}"
 		(name "")
-		(pos 82.325 45.8)
-		(font bold)
+		(pos 31.2 20.825)
+		(justify right)
 		(comment "Company name")
 	)
 	(tbtext "By: ${COMMENT1}"
