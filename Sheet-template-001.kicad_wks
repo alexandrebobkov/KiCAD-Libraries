@@ -172,13 +172,13 @@
 	)
 	(tbtext "Course: ${COMMENT3}"
 		(name "")
-		(pos 109.625 16.75)
+		(pos 109.225 16.85)
 		(font bold)
 		(comment "Comment 2")
 	)
 	(tbtext "${COMMENT4}"
 		(name "")
-		(pos 99.925 14.15)
+		(pos 99.675 14.15)
 		(comment "Comment 3")
 	)
 	(line
