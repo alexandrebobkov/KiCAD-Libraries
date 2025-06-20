@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:BreadBoard-PowerAdapter-ESP32C3"
+		(property "Footprint" "Alexander Footprints Library:Breadboard_PowerRails"
 			(at -38.354 -27.178 90)
 			(effects
 				(font

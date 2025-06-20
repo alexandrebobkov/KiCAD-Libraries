@@ -3077,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Value" "16pins"
+		(property "Value" "18pins"
 			(at 0.508 -10.922 0)
 			(effects
 				(font
@@ -3119,19 +3119,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "BRD-PowerAdapter-ESP32C3_18P_0_1"
-			(rectangle
-				(start -13.97 0)
-				(end 13.97 -25.4)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
 			)
 		)
 		(symbol "BRD-PowerAdapter-ESP32C3_18P_1_0"
@@ -3407,6 +3394,17 @@
 			)
 		)
 		(symbol "BRD-PowerAdapter-ESP32C3_18P_1_1"
+			(rectangle
+				(start -13.97 0)
+				(end 13.97 -25.4)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin bidirectional line
 				(at -16.51 -2.54 0)
 				(length 2.54)
