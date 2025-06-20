@@ -155,7 +155,7 @@
 		(layer "Dwgs.User")
 		(uuid "1426c6d1-1b28-4315-9eaf-bbd677ced605")
 		(pts
-			(xy -26.035 -8.89) (xy 26.035 -8.89)
+			(xy -26.034999 -13.97) (xy 26.035 -11.43)
 		)
 		(height 24.765)
 		(orientation 0)
@@ -177,7 +177,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "52.07"
-			(at 0 14.725 0)
+			(at 0.000001 9.645 0)
 			(layer "Dwgs.User")
 			(uuid "1426c6d1-1b28-4315-9eaf-bbd677ced605")
 			(effects
@@ -383,7 +383,7 @@
 		(layer "Dwgs.User")
 		(uuid "b8588e22-3dd8-4a59-8290-398a751502dd")
 		(pts
-			(xy -26.035 -49.53) (xy -26.035 -8.89)
+			(xy -23.495 -49.529999) (xy -23.495 -8.89)
 		)
 		(height -29.21)
 		(orientation 1)
@@ -405,7 +405,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "40.64"
-			(at -56.395 -29.21 90)
+			(at -53.855 -29.209999 90)
 			(layer "Dwgs.User")
 			(uuid "b8588e22-3dd8-4a59-8290-398a751502dd")
 			(effects
