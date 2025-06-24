@@ -9244,6 +9244,17 @@
 					)
 				)
 			)
+			(text "GND"
+				(at 1.27 -37.084 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
 			(pin input line
 				(at -7.62 -6.35 0)
 				(length 2.54)
