@@ -9341,10 +9341,10 @@
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(arc
@@ -9528,6 +9528,78 @@
 			)
 			(text "GPIO9"
 				(at 2.032 -33.274 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "UART Rx"
+				(at 18.034 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "USB D+"
+				(at 18.288 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "USB D-"
+				(at 18.288 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "UART Tx"
+				(at 18.288 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "GPIO10"
+				(at 18.796 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "GPIO0"
+				(at 19.304 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "GPIO1"
+				(at 19.304 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "GPIO2"
+				(at 19.304 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "GPIO3"
+				(at 19.304 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
