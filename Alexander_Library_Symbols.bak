@@ -9167,7 +9167,7 @@
 				(stroke
 					(width 0.381)
 					(type solid)
-					(color 255 8 50 1)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -9195,6 +9195,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(text "3V3"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 255 0 0 1)
+					)
 				)
 			)
 			(pin input line
