@@ -9159,6 +9159,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 29.21 -36.83 180)
+				(length 2.54)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ESP32C3_ZenBoard_1_1"
 			(polyline
