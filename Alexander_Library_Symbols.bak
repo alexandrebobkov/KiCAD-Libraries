@@ -9339,6 +9339,18 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start -3.81 -5.08)
+				(end -1.27 -7.62)
+				(stroke
+					(width 0.381)
+					(type default)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -2.54 -3.81) (xy 24.13 -3.81)
@@ -9358,18 +9370,6 @@
 				(stroke
 					(width 0)
 					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -2.54 -6.35)
-				(radius 1.27)
-				(stroke
-					(width 0.381)
-					(type solid)
-					(color 255 0 0 1)
 				)
 				(fill
 					(type none)
@@ -9535,6 +9535,16 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "ESP32-C3\nZEN BOARD"
+				(at 9.652 -20.828 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.3048)
+						(bold yes)
 					)
 				)
 			)
