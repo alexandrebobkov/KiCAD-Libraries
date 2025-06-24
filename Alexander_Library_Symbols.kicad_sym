@@ -8929,17 +8929,6 @@
 				)
 			)
 			(circle
-				(center -2.54 -36.83)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
 				(center 24.13 -6.35)
 				(radius 1.27)
 				(stroke
@@ -9187,6 +9176,18 @@
 					(width 0.254)
 					(type solid)
 					(color 23 13 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.54 -36.83)
+				(radius 1.27)
+				(stroke
+					(width 0.381)
+					(type solid)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
