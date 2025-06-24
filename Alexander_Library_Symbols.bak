@@ -8815,6 +8815,10 @@
 		(embedded_fonts no)
 	)
 	(symbol "ESP32C3_ZenBoard"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9140,7 +9144,7 @@
 			(pin input line
 				(at -6.35 -36.83 0)
 				(length 2.54)
-				(name "GND"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
