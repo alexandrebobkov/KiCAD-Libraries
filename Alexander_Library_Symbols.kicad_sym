@@ -8980,8 +8980,9 @@
 				(center 24.13 -21.59)
 				(radius 1.27)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
+					(color 0 0 132 1)
 				)
 				(fill
 					(type none)
@@ -8991,8 +8992,9 @@
 				(center 24.13 -25.4)
 				(radius 1.27)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
+					(color 0 0 132 1)
 				)
 				(fill
 					(type none)
@@ -9002,8 +9004,9 @@
 				(center 24.13 -29.21)
 				(radius 1.27)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
+					(color 0 0 132 1)
 				)
 				(fill
 					(type none)
@@ -9013,8 +9016,9 @@
 				(center 24.13 -33.02)
 				(radius 1.27)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
+					(color 0 0 132 1)
 				)
 				(fill
 					(type none)
@@ -9377,7 +9381,7 @@
 				(stroke
 					(width 0.254)
 					(type solid)
-					(color 23 13 255 1)
+					(color 0 0 132 1)
 				)
 				(fill
 					(type none)
@@ -9539,6 +9543,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 0 0 132 1)
 					)
 				)
 			)
@@ -9547,6 +9552,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 0 0 132 1)
 					)
 				)
 			)
@@ -9555,6 +9561,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 0 0 132 1)
 					)
 				)
 			)
@@ -9563,6 +9570,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 0 0 132 1)
 					)
 				)
 			)
