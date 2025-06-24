@@ -9161,6 +9161,18 @@
 			)
 		)
 		(symbol "ESP32C3_ZenBoard_1_1"
+			(arc
+				(start -5.08 -6.35)
+				(mid -4.3361 -4.5539)
+				(end -2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center -2.54 -6.35)
 				(radius 1.27)
@@ -9170,8 +9182,7 @@
 					(color 255 0 0 1)
 				)
 				(fill
-					(type color)
-					(color 255 0 0 1)
+					(type none)
 				)
 			)
 			(circle
@@ -9210,7 +9221,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -6.35 0)
+				(at -7.62 -6.35 0)
 				(length 2.54)
 				(name "3V3"
 					(effects
