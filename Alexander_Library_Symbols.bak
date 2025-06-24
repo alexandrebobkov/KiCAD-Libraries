@@ -9233,6 +9233,15 @@
 					(type none)
 				)
 			)
+			(text "EN"
+				(at 0.762 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 0 0 132 1)
+					)
+				)
+			)
 			(text "3V3"
 				(at 1.27 -6.35 0)
 				(effects
@@ -9252,6 +9261,14 @@
 						(thickness 0.254)
 						(bold yes)
 						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "GPIO5"
+				(at 2.54 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
