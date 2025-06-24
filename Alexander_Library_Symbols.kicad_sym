@@ -9170,8 +9170,7 @@
 					(color 255 0 0 1)
 				)
 				(fill
-					(type color)
-					(color 255 0 0 1)
+					(type none)
 				)
 			)
 			(circle
