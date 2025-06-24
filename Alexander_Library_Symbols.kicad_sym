@@ -9160,43 +9160,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 -36.83 180)
-				(length 2.54)
-				(name "GPIO10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 38.1 -20.32 180)
-				(length 2.54)
-				(name "Rx"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 39.37 10.16 180)
+				(at 29.21 -6.35 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -9214,7 +9178,7 @@
 				)
 			)
 			(pin input line
-				(at 39.37 7.62 180)
+				(at 29.21 -10.16 180)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -9232,7 +9196,7 @@
 				)
 			)
 			(pin input line
-				(at 39.37 5.08 180)
+				(at 29.21 -13.97 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -9250,7 +9214,7 @@
 				)
 			)
 			(pin input line
-				(at 39.37 2.54 180)
+				(at 29.21 -17.78 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -9268,7 +9232,7 @@
 				)
 			)
 			(pin input line
-				(at 39.37 0 180)
+				(at 29.21 -21.59 180)
 				(length 2.54)
 				(name "USB_B+"
 					(effects
@@ -9286,7 +9250,7 @@
 				)
 			)
 			(pin input line
-				(at 39.37 -2.54 180)
+				(at 29.21 -25.4 180)
 				(length 2.54)
 				(name "USB_D-"
 					(effects
@@ -9304,7 +9268,7 @@
 				)
 			)
 			(pin input line
-				(at 43.18 -15.24 180)
+				(at 29.21 -29.21 180)
 				(length 2.54)
 				(name "Tx"
 					(effects
@@ -9321,11 +9285,59 @@
 					)
 				)
 			)
+			(pin input line
+				(at 29.21 -33.02 180)
+				(length 2.54)
+				(name "Rx"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.21 -36.83 180)
+				(length 2.54)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ESP32C3_ZenBoard_1_1"
 			(polyline
 				(pts
 					(xy -5.08 -36.83) (xy -5.08 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy 24.13 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -9387,6 +9399,54 @@
 				(start -2.54 -39.37)
 				(mid -4.3361 -38.6261)
 				(end -5.08 -36.83)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -39.37) (xy 24.13 -39.37)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 24.13 -3.81)
+				(mid 25.9261 -4.5539)
+				(end 26.67 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 26.67 -36.83)
+				(mid 25.9261 -38.6261)
+				(end 24.13 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 26.67 -36.83) (xy 26.67 -6.35)
+				)
 				(stroke
 					(width 0)
 					(type default)
